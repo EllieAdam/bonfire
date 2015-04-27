@@ -1,18 +1,6 @@
 1-
 
-function calculateTip(total) {
-    var tipPercent = 0.15; //Can be changed
-    return (total * tipPercent);
-}
 
-var billPreTip = 10;
-var billTip   = calculateTip(billPreTip);
-var receipt   = 'Meal: ' + billPreTip + ' Tip: ' + billTip +
-    ' Total: ' + (billPreTip + billTip);
-console.log(receipt);
-
-
-2-
 function calculateTrip(totalmiles) {
     var tripMiles = 200; //Can be changed
     return (total * tripMiles);
@@ -25,7 +13,7 @@ var autoMeter   = 'Before: ' + MilesPreTrip + ' Trip: ' + MilesTrip +
 console.log( autoMeter);
 
 
-3-
+2-
 var awesomeFCC = 'Campers developers'; //Global scope
 function whatIsAwesome() {
     console.log (awesomeFCC+ ' is pretty awesome.'); //Will work
@@ -33,7 +21,7 @@ function whatIsAwesome() {
 whatIsAwesome();
 
 
-4-
+3-
 function whatIsAwesome() {
     var awesomeFCC = 'Campers developers'; //Local scope
     console.log ('I made a variable called awesomeFCC with a value of ' + awesomeFCC); //Will work
