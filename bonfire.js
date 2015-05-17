@@ -1,27 +1,40 @@
-1-
+1-Trip miles
+Calculate the trip miles and return autoMeter reading??
+Difficulty: 1....
 
-
+Ans:
 function calculateTrip(totalmiles) {
     var tripMiles = 200; //Can be changed
     return (total * tripMiles);
 }
 
 var MilesPreTrip = 50000;
-var MilesTrip   = calculateTrip(MilesPreTrip);
-var autoMeter   = 'Before: ' + MilesPreTrip + ' Trip: ' + MilesTrip +
-    ' Total: ' + (MilesPreTrip + MilesTrip);
+var triplMiles   = calculateTrip(MilesPreTrip);
+var autoMeter   = 'Before: ' + MilesPreTrip + ' Trip: ' + tripMiles +
+    ' Total: ' + (MilesPreTrip + tripMiles);
 console.log( autoMeter);
 
 
-2-
-var awesomeFCC = 'Campers developers'; //Global scope
+
+
+
+2-AwesomeFCC
+Find the awesomeFCC and return its value
+Difficulty: 1....
+Ans:
+
+var awesomeFCC = 'Camper developers'; //Global scope
 function whatIsAwesome() {
     console.log (awesomeFCC+ ' is pretty awesome.'); //Will work
 }
 whatIsAwesome();
 
 
-3-
+3-whatIsAwesome
+Find the awesomeFCC and return its value
+Difficulty: 1....
+
+Ans:
 function whatIsAwesome() {
     var awesomeFCC = 'Campers developers'; //Local scope
     console.log ('I made a variable called awesomeFCC with a value of ' + awesomeFCC); //Will work
@@ -30,7 +43,12 @@ whatIsAwesome();
 console.log (awesomeFCC + ' is pretty awesome.'); //Won't work
 
 
-5-if/else
+5-Driving age
+Calculate the driving age with help of if/else statements.
+
+
+Difficulty: 1....
+Ans:
 
 var age = 102;
 if (age <= 70) {
@@ -41,8 +59,12 @@ if (age <= 70) {
 }
 
 
-6-THE IF/ELSE IF/ELSE STATEMENT
+6-Driving age
+Calculate the driving age with help of if/else statements.
 
+
+Difficulty: 1....
+Ans:
 var age = 20;
 if (age >= 35) {
     console.log('You can cook AND hold any responsibilty in house!');
@@ -56,7 +78,12 @@ if (age >= 35) {
 }
 
 
-7-LOGICAL OPERATORS
+7-Number of pets
+
+Calculate the driving age with help of if/else statements.
+Difficulty: 1....
+Ans:
+
 var pets = 5;
 if (pets >=2 && pets <7) {
     console.log ('You have a reasonable number of pets');
@@ -65,7 +92,10 @@ if (pets >=2 && pets <7) {
 }
 
 
-8-WHILE LOOPS
+8-BottlesOfWine
+calculate number of bottles to design
+Difficulty: 1....
+Ans:
 
 var bottlesOfWine = 99;
 while (bottlesOfWine >= 1) {
@@ -73,7 +103,12 @@ while (bottlesOfWine >= 1) {
     bottlesOfWine = bottlesOfWine - 9;
 }
 
-9-LOOPS AND LOGIC
+
+9-Buzz Bang
+say Buzz Bang
+
+Difficulty: 1....
+Ans:
 //Count from 1 to 50
 for (var i = 1; i <= 50; i++) {
     console.log (i);
@@ -88,7 +123,11 @@ for (var i = 1; i <= 50; i++) {
 }
 
 
-10-ARRAYS OF OBJECTS
+10-My cat
+Find my cats age
+Difficulty: 1....
+Ans:
+
 var myCats = [
   {name: 'Liona',
    age: 10},
@@ -101,7 +140,10 @@ for (var i = 0; i < myCats.length; i++) {
   console.log(myCat.name + ' is ' + myCat.age + ' years old.');
 }
 
-11-ARRAYS OF OBJECTS
+11-DescribeCat
+Find out the age and fur color?
+Difficulty: 1....
+Ans:
 
 var LionaTheCat = {
   age: 10,
@@ -116,8 +158,12 @@ function describeCat(cat) {
 
 describeCat(LionaTheCat);
 
-12-OBJECT METHODS
 
+12-DamonTheDog
+What damon eats?
+
+Difficulty: 1....
+Ans:
 var DamonTheDog = {
   age: 2,
   furColor: 'blue',
@@ -132,3 +178,53 @@ var DamonTheDog = {
 //Call object methods using dot notation:
 DamonTheDog.woof();
 DamonTheDog.eat('organic dog food');
+
+
+13-Add a, b
+
+
+Difficulty: 1....
+Ans:
+
+var add = function(a,b) {
+  result = 0;
+  for (var i=0; i< arguments.length; i++) {
+    result += argument[i];
+    return result;
+  };
+}
+add(3,10,5,4,3,6,7,88); //??
+
+14- animalMaker
+
+Difficulty: 1....
+Ans:
+var animalMaker = function(name){
+  return {
+    speak : function(){
+      console.log("my name is ", name)
+    }
+  };
+};
+var animalNames = ["sheep", "cow", "goat"];
+var farm = [];
+
+  for(var i=0; i< animal.length; i++) {
+    farm.push(AnimalMaker(animalNames[i]));
+  };
+
+  // ??
+
+  15-getFunc
+
+  Difficulty: 1....
+  Ans:
+  function getFunc() {
+    var a = 7;
+    return function(b) {
+        alert(a+b);
+    }
+}
+var f = getFunc();
+f(5); // ??
+ans:12
