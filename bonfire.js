@@ -228,3 +228,81 @@ var farm = [];
 var f = getFunc();
 f(5); // ??
 ans:12
+
+FUNCTION PROBLEM
+16.	Q. Write a function that takes a binary function, and makes it callable with two invocations.
+addg =  applyg(add);
+addg(5) (6)  //11
+applyg(mul) (7) (8) // 56
+
+Answer
+function applyg(binary) {
+	return function (x) {
+	return function (y) {
+		return binary(x, y);
+};
+};
+};
+
+17.Q. . Write a function that takes a function and arguments, and returns a function that can supply a second argument.
+	add5 = curry (add, 5);
+	add5(7)      //12
+	curry(mul, 5) (7) //   35
+
+	Answer
+function curry(func, first) {
+	return function (second) {
+	return function (y) {
+		return function(first, second);
+};
+};
+function curry(func, first) {
+	return applyf (func)(first);
+
+};
+OPTIONAL
+function curry(func, …first) {
+	return function (…second) {
+	return function (y) {
+		return function(…first, …second);
+};
+};
+18.Q without writing any new functions, show three ways to create the inc function.
+inc(7) // 8
+inc(inc(7)) //9
+	Answer
+1.	inc = addg(1);
+2.	inc = applyg(add) (1);
+3.	inc = curry (add, 1);
+
+19.Q. Write methodize, a function that converts a binary function to a method.
+Number. Prototype.add =
+		Methodized(add);
+(4).add(5)    // 9
+
+Answer:
+function methodize (func) {
+	return function (y) {
+	return func(this, y);
+
+};
+}
+function methodize (func) {
+	return function (…y) {
+	return func(this, …y);
+};
+}
+20.Q. Write demethodize, a function that converts a method function to a binary.
+Demethodize(Number.prototype.add) (5, 8) //13
+Answer:
+function demethodize (func) {
+	return function (that, y) {
+	return func.call(that, y);
+
+};
+}
+function demethodize (func) {
+	return function (that…y) {
+	return func.apply(that, …y);
+};
+}
