@@ -234,6 +234,7 @@ FUNCTION PROBLEM
 addg =  applyg(add);
 addg(5) (6)  //11
 applyg(mul) (7) (8) // 56
+Difficulty: 1....
 
 Answer
 function applyg(binary) {
@@ -248,6 +249,7 @@ function applyg(binary) {
 	add5 = curry (add, 5);
 	add5(7)      //12
 	curry(mul, 5) (7) //   35
+  Difficulty: 1....
 
 	Answer
 function curry(func, first) {
@@ -279,6 +281,8 @@ inc(inc(7)) //9
 Number. Prototype.add =
 		Methodized(add);
 (4).add(5)    // 9
+Difficulty: 1....
+
 
 Answer:
 function methodize (func) {
@@ -294,6 +298,8 @@ function methodize (func) {
 }
 20.Q. Write demethodize, a function that converts a method function to a binary.
 Demethodize(Number.prototype.add) (5, 8) //13
+Difficulty: 1....
+
 Answer:
 function demethodize (func) {
 	return function (that, y) {
@@ -306,3 +312,76 @@ function demethodize (func) {
 	return func.apply(that, …y);
 };
 }
+
+21. JavaScript events and timing.
+Q In what order will the numbers 1-4 be logged to the console when the code below is executed? Why?
+
+
+(function() {
+    console.log(1);
+    setTimeout(function(){console.log(2)}, 1000);
+    setTimeout(function(){console.log(3)}, 0);
+    console.log(4);
+})();
+Difficulty: 2....
+
+Ans:
+The values will be logged in the following order:
+1
+4
+3
+2
+
+1 and 4 are displayed first since they are logged by simple calls to console.log() without any delay
+2 is displayed after 3 because 2 is being logged after a delay of 1000 msecs (i.e., 1 second) whereas 3 is being logged after a delay of 0 msecs.
+
+
+22. Q
+What will the code below output to the console and why ?
+console.log(1 +  "4" + "3");
+console.log(1 +  +"2" + "2");
+console.log(1 +  -"1" + "7");
+console.log(+"1" +  "1" + "5");
+console.log( "A" - "B" + "2");
+console.log( "A" - "B" + 2);
+
+Answer:
+The above code will output the following to the console:
+"143"
+"32"
+"07"
+"115"
+"NaN2"
+NaN
+
+Explaination:
+Example 1: 1 + "4" + "3" Outputs: "143" Explanation: The first operation to be performed in 1 + "4". Since one of the operands ("3") is a string, JavaScript assumes it needs to perform string concatenation and therefore converts the type of 1 to "1", 1 + "4" yields "14". Then, "14" + "3" yields "143".
+
+Example 2: 1 + +"2" + "2" Outputs: "32" Explanation: Based on order of operations, the first operation to be performed is +"2" (the extra + before the first "2" is treated as a unary operator). Thus, JavaScript converts the type of "2" to numeric and then applies the unary + sign to it (i.e., treats it as a positive number). As a result, the next operation is now 1 + 2 which of course yields 3. But then, we have an operation between a number and a string (i.e., 3 and "2"), so once again JavaScript converts the type of the numeric value to a string and performs string concatenation, yielding "32".
+
+Example 3: 1 + -"1" + "7" Outputs: "07" Explanation: except the unary operator is - rather than +. So "1" becomes 1, which then becomes -1 when the - is applied, which is then added to 1 yielding 0, which is then converted to a string and concatenated with the final "7" operand, yielding "07".
+
+Example 4: +"1" + "1" + "5" Outputs: "115" Explanation: Although the first "1" operand is typecast to a numeric value based on the unary + operator that precedes it, it is then immediately converted back to a string when it is concatenated with the second "1" operand, which is then concatenated with the final "5" operand, yielding the string "115".
+
+Example 5: "A" - "B" + "2" Outputs: "NaN2" Explanation: Since the - operator can not be applied to strings, and since neither "A" nor "B" can be converted to numeric values, "A" - "B" yields NaN which is then concatenated with the string "2" to yield “NaN2”.
+
+Example 6: "A" - "B" + 2 Outputs: NaN Explanation: As exlained in the previous example, "A" - "B" yields NaN. But any operator applied to NaN with any other numeric operand will still yield NaN.
+
+
+23. Q What will the code below output to the console and why?
+var arr1 = "jake".split('');
+var arr2 = arr1.reverse();
+var arr3 = "jakob".split('');
+arr2.push(arr3);
+console.log("array 1: length=" + arr1.length + " last=" + arr1.slice(-1));
+console.log("array 2: length=" + arr2.length + " last=" + arr2.slice(-1));
+
+Asnwer:
+The logged output will be:
+
+"array 1: length=5 last=j,a,k,o,b"
+"array 2: length=5 last=j,a,k,o,b"
+arr1 and arr2 are the same after the above code is executed for the following reasons:
+
+Calling an array object’s reverse() method doesn’t only return the array in reverse order, it also reverses the order of the array itself (i.e., in this case, arr1).
+The reverse() method returns a reference to the array itself (i.e., in this case, arr1). As a result, arr2 is simply a reference to (rather than a copy of) arr1. Therefore, when anything is done to arr2 (i.e., when we invoke arr2.push(arr3);), arr1 will be affected as well since arr1 and arr2 are simply references to the same object.
