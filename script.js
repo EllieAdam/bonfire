@@ -1,4 +1,5 @@
-1-Trip miles
+1
+Question: Trip miles
 Calculate the trip miles and return autoMeter reading??
 Difficulty: 1....
 
@@ -18,7 +19,8 @@ console.log( autoMeter);
 
 
 
-2-AwesomeFCC
+2.
+Question: AwesomeFCC
 Find the awesomeFCC and return its value
 Difficulty: 1....
 Ans:
@@ -30,7 +32,8 @@ function whatIsAwesome() {
 whatIsAwesome();
 
 
-3-whatIsAwesome
+3.
+Question: whatIsAwesome
 Find the awesomeFCC and return its value
 Difficulty: 1....
 
@@ -43,7 +46,8 @@ whatIsAwesome();
 console.log (awesomeFCC + ' is pretty awesome.'); //Won't work
 
 
-5-Driving age
+5.
+Question: Driving age
 Calculate the driving age with help of if/else statements.
 
 
@@ -59,7 +63,8 @@ if (age <= 70) {
 }
 
 
-6-Driving age
+6
+Question: Driving age
 Calculate the driving age with help of if/else statements.
 
 
@@ -78,7 +83,8 @@ if (age >= 35) {
 }
 
 
-7-Number of pets
+7
+Question: Number of pets
 
 Calculate the driving age with help of if/else statements.
 Difficulty: 1....
@@ -92,7 +98,9 @@ if (pets >=2 && pets <7) {
 }
 
 
-8-BottlesOfWine
+8
+Question:
+BottlesOfWine
 calculate number of bottles to design
 Difficulty: 1....
 Ans:
@@ -104,7 +112,8 @@ while (bottlesOfWine >= 1) {
 }
 
 
-9-Buzz Bang
+9.
+Question Buzz Bang
 say Buzz Bang
 
 Difficulty: 1....
@@ -123,7 +132,8 @@ for (var i = 1; i <= 50; i++) {
 }
 
 
-10-My cat
+10
+Question: My cat
 Find my cats age
 Difficulty: 1....
 Ans:
@@ -140,7 +150,8 @@ for (var i = 0; i < myCats.length; i++) {
   console.log(myCat.name + ' is ' + myCat.age + ' years old.');
 }
 
-11-DescribeCat
+11
+Question: DescribeCat
 Find out the age and fur color?
 Difficulty: 1....
 Ans:
@@ -159,7 +170,8 @@ function describeCat(cat) {
 describeCat(LionaTheCat);
 
 
-12-DamonTheDog
+12
+Question: DamonTheDog
 What damon eats?
 
 Difficulty: 1....
@@ -180,7 +192,8 @@ DamonTheDog.woof();
 DamonTheDog.eat('organic dog food');
 
 
-13-Add a, b
+13 Question
+Add a, b
 
 
 Difficulty: 1....
@@ -195,7 +208,7 @@ var add = function(a,b) {
 }
 add(3,10,5,4,3,6,7,88); //??
 
-14- animalMaker
+14 Question :animalMaker
 
 Difficulty: 1....
 Ans:
@@ -228,3 +241,234 @@ var farm = [];
 var f = getFunc();
 f(5); // ??
 ans:12
+
+
+FUNCTION PROBLEM
+16.
+Q. Write a function that takes a binary function, and makes it callable with two invocations.
+addg =  applyg(add);
+addg(5) (6)  //11
+applyg(mul) (7) (8) // 56
+Difficulty: 1....
+
+Answer
+function applyg(binary) {
+	return function (x) {
+	return function (y) {
+		return binary(x, y);
+};
+};
+};
+
+17.
+Q.  Write a function that takes a function and arguments, and returns a function that can supply a second argument.
+	add5 = curry (add, 5);
+	add5(7)      //12
+	curry(mul, 5) (7) //   35
+  Difficulty: 1....
+
+	Answer
+function curry(func, first) {
+	return function (second) {
+	return function (y) {
+		return function(first, second);
+};
+};
+function curry(func, first) {
+	return applyf (func)(first);
+
+};
+OPTIONAL
+function curry(func, …first) {
+	return function (…second) {
+	return function (y) {
+		return function(…first, …second);
+};
+};
+18.
+Q without writing any new functions, show three ways to create the inc function.
+inc(7) // 8
+inc(inc(7)) //9
+	Answer
+1.	inc = addg(1);
+2.	inc = applyg(add) (1);
+3.	inc = curry (add, 1);
+
+19.Q. Write methodize, a function that converts a binary function to a method.
+Number. Prototype.add =
+		Methodized(add);
+(4).add(5)    // 9
+Difficulty: 1....
+
+
+Answer:
+function methodize (func) {
+	return function (y) {
+	return func(this, y);
+
+};
+}
+function methodize (func) {
+	return function (…y) {
+	return func(this, …y);
+};
+}
+20.
+Question: Write demethodize, a function that converts a method function to a binary.
+Demethodize(Number.prototype.add) (5, 8) //13
+Difficulty: 1....
+
+Answer:
+function demethodize (func) {
+	return function (that, y) {
+	return func.call(that, y);
+
+};
+}
+function demethodize (func) {
+	return function (that…y) {
+	return func.apply(that, …y);
+};
+}
+
+21. JavaScript events and timing.
+Question : In what order will the numbers 1-4 be logged to the console when the code below is executed? Why?
+
+
+(function() {
+    console.log(1);
+    setTimeout(function(){console.log(2)}, 1000);
+    setTimeout(function(){console.log(3)}, 0);
+    console.log(4);
+})();
+Difficulty: 2....
+
+Ans:
+The values will be logged in the following order:
+1
+4
+3
+2
+
+1 and 4 are displayed first since they are logged by simple calls to console.log() without any delay
+2 is displayed after 3 because 2 is being logged after a delay of 1000 msecs (i.e., 1 second) whereas 3 is being logged after a delay of 0 msecs.
+
+
+22.
+Question :
+What will the code below output to the console and why ?
+console.log(1 +  "4" + "3");
+console.log(1 +  +"2" + "2");
+console.log(1 +  -"1" + "7");
+console.log(+"1" +  "1" + "5");
+console.log( "A" - "B" + "2");
+console.log( "A" - "B" + 2);
+
+Answer:
+The above code will output the following to the console:
+"143"
+"32"
+"07"
+"115"
+"NaN2"
+NaN
+
+Explaination:
+Example 1: 1 + "4" + "3" Outputs: "143" Explanation: The first operation to be performed in 1 + "4". Since one of the operands ("3") is a string, JavaScript assumes it needs to perform string concatenation and therefore converts the type of 1 to "1", 1 + "4" yields "14". Then, "14" + "3" yields "143".
+
+Example 2: 1 + +"2" + "2" Outputs: "32" Explanation: Based on order of operations, the first operation to be performed is +"2" (the extra + before the first "2" is treated as a unary operator). Thus, JavaScript converts the type of "2" to numeric and then applies the unary + sign to it (i.e., treats it as a positive number). As a result, the next operation is now 1 + 2 which of course yields 3. But then, we have an operation between a number and a string (i.e., 3 and "2"), so once again JavaScript converts the type of the numeric value to a string and performs string concatenation, yielding "32".
+
+Example 3: 1 + -"1" + "7" Outputs: "07" Explanation: except the unary operator is - rather than +. So "1" becomes 1, which then becomes -1 when the - is applied, which is then added to 1 yielding 0, which is then converted to a string and concatenated with the final "7" operand, yielding "07".
+
+Example 4: +"1" + "1" + "5" Outputs: "115" Explanation: Although the first "1" operand is typecast to a numeric value based on the unary + operator that precedes it, it is then immediately converted back to a string when it is concatenated with the second "1" operand, which is then concatenated with the final "5" operand, yielding the string "115".
+
+Example 5: "A" - "B" + "2" Outputs: "NaN2" Explanation: Since the - operator can not be applied to strings, and since neither "A" nor "B" can be converted to numeric values, "A" - "B" yields NaN which is then concatenated with the string "2" to yield “NaN2”.
+
+Example 6: "A" - "B" + 2 Outputs: NaN Explanation: As exlained in the previous example, "A" - "B" yields NaN. But any operator applied to NaN with any other numeric operand will still yield NaN.
+
+
+23. Q What will the code below output to the console and why?
+var arr1 = "jake".split('');
+var arr2 = arr1.reverse();
+var arr3 = "jakob".split('');
+arr2.push(arr3);
+console.log("array 1: length=" + arr1.length + " last=" + arr1.slice(-1));
+console.log("array 2: length=" + arr2.length + " last=" + arr2.slice(-1));
+
+Asnwer:
+The logged output will be:
+
+"array 1: length=5 last=j,a,k,o,b"
+"array 2: length=5 last=j,a,k,o,b"
+arr1 and arr2 are the same after the above code is executed for the following reasons:
+
+Calling an array object’s reverse() method doesn’t only return the array in reverse order, it also reverses the order of the array itself (i.e., in this case, arr1).
+The reverse() method returns a reference to the array itself (i.e., in this case, arr1). As a result, arr2 is simply a reference to (rather than a copy of) arr1. Therefore, when anything is done to arr2 (i.e., when we invoke arr2.push(arr3);), arr1 will be affected as well since arr1 and arr2 are simply references to the same object.
+
+24.
+Question . What is the output out of the following code? Explain your answer.
+
+var a={},
+    b={key:'b'},
+    c={key:'c'};
+
+a[b]=674;
+a[c]=489;
+
+console.log(a[b]);
+
+Answer:
+The output of this code will be 489 (not 674).
+
+The reason for this is as follows: When setting an object property, JavaScript will implicitly stringify the parameter value. In this case, since b and c are both objects, they will both be converted to "[object Object]". As a result, a[b] anda[c] are both equivalent to a["[object Object]"] and can be used interchangeably. Therefore, setting or referencing a[c] is precisely the same as setting or referencing a[b].
+
+25.
+Question . What would the following lines of code output to the console?
+
+console.log("0 || 1 = "+(0 || 1));
+console.log("1 || 2 = "+(1 || 2));
+console.log("0 && 1 = "+(0 && 1));
+console.log("1 && 2 = "+(1 && 2));
+
+Answer
+The code will output the following four lines:
+
+0 || 1 = 1
+1 || 2 = 1
+0 && 1 = 0
+1 && 2 = 2
+In JavaScript, both || and && are logical operators that return the first fully-determined “logical value” when evaluated from left to right.
+The or (||) operator. In an expression of the form X||Y, X is first evaluated and interpreted as a boolean value. If this boolean value is true, then true (1) is returned and Y is not evaluated, since the “or” condition has already been satisfied. If this boolean value is “false”, though, we still don’t know if X||Y is true or false until we evaluate Y, and interpret it as a boolean value as well.
+
+Accordingly, 0 || 1 evaluates to true (1), as does 1 || 2.
+The and (&&) operator. In an expression of the form X&&Y, X is first evaluated and interpreted as a boolean value. If this boolean value is false, then false (0) is returned and Y is not evaluated, since the “and” condition has already failed. If this boolean value is “ture”, though, we still don’t know if X&&Y is true or false until we evaluate Y, and interpret it as a boolean value as well.
+
+However, the interesting thing with the && operator os that when an expression is evaluated as “true”, then the expression itself is returned. This is fine, since it counts as “true” in logical expressions, but also can be used to return that value when you care to do so. This explains why, somewhat surprisingly, 1 && 2 returns 2 (whereas you might it expect it to return true or 1).
+
+26.
+Question . What will the following code output to the console:
+
+console.log((function f(n){
+  return ((n > 1) ? n * f(n-1) : n)
+  })(10));
+
+answer.
+The code will output the value of 10 factorial (i.e., 10!, or 3,628,800).
+
+Here’s why:
+
+The named function f() calls itself recursively, until it gets down to calling f(1) which simply returns 1. Here, therefore, is what this does:
+
+f(1): returns n, which is 1
+f(2): returns 2 * f(1), which is 2
+f(3): returns 3 * f(2), which is 6
+f(4): returns 4 * f(3), which is 24
+f(5): returns 5 * f(4), which is 120
+f(6): returns 6 * f(5), which is 720
+f(7): returns 7 * f(6), which is 5040
+f(8): returns 8 * f(7), which is 40320
+f(9): returns 9 * f(8), which is 362880
+f(10): returns 10 * f(9), which is 3628800
+
+27.
+Question : Hoisting
