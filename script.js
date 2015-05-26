@@ -472,3 +472,50 @@ f(10): returns 10 * f(9), which is 3628800
 
 27.
 Question : Hoisting
+function test() {
+   console.log(a);
+   console.log(foo());
+
+   var a = 1;
+   function foo() {
+      return 2;
+   }
+}
+
+test();
+Answer.
+
+function test() {
+   var a;
+   function foo() {
+      return 2;
+   }
+
+   console.log(a);
+   console.log(foo());
+
+   a = 1;
+}
+
+test();
+
+
+28.
+Question:
+write a sum() function that accepts any number of arguments, and returns their sum.
+
+function sum() {
+  var i, l, result = 0;
+  for (i = 0, l = arguments.length; i < l; i++) {
+    result += arguments[i];
+  }
+  return result;
+}
+sum(1,2,3); // 6
+
+
+Answer:
+var data = [1,2,3];
+sum.apply(null, data); // 6
+
+sum(1,2,3); // 6
