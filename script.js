@@ -519,3 +519,31 @@ var data = [1,2,3];
 sum.apply(null, data); // 6
 
 sum(1,2,3); // 6
+
+29.
+Question: What will be the output of the following statements?
+
+Code
+Hide   Copy Code
+var myString = 'Vicky' // Create a primitive string object.
+var myStringCopy = myString; // Copy its value into a new variable.
+var myString = null; // Manipulate the value
+console.log(myString, myStringCopy);
+Ans: // Logs 'null Vicky'
+
+
+30.
+Question: fibonacci function
+
+var fibonacci = function (n) {
+    return fibonacci(n - 2) + fibonacci(n - 1);
+};
+
+console.log(fibonacci(10));
+//“To end the recursion, we will add the special cases by replacing the body of fibonacci function.”
+
+switch (n) {
+    case 0: return 0;
+    case 1: return 1;
+    default: return fibonacci(n - 2) + fibonacci(n - 1);
+}
