@@ -547,3 +547,76 @@ switch (n) {
     case 1: return 1;
     default: return fibonacci(n - 2) + fibonacci(n - 1);
 }
+
+31.Closures
+Question: return favoriteGame?
+var gameTime = "everyDay";
+//call ballGame inside favoriteGame
+Answer:
+var gameTime = "everyDay";
+
+function fn() {
+  var soccer = "funGame";
+  console.log(soccer);
+  console.log(gameTime);
+}
+
+function favoriteGame () {   //Closures
+  var baseball = "super";
+  function  ballGame () {
+    var tball = "awesome";
+    return baseball + tball;
+  }
+  console.log(ballGame());
+}
+favoriteGame();
+
+
+
+Second Method of doing same problem other way around.
+var gameTime = "everyDay";
+
+function fn() {
+  var soccer = "funGame";
+  console.log(soccer);
+  console.log(gameTime);
+}
+
+function favoriteGame () {   //Closures
+  var baseball = "super";
+  return function  ballGame () {
+    var tball = "awesome";
+    return baseball + tball;
+  }
+
+}
+var ballGame = favoriteGame();
+
+console.log(ballGame());
+
+
+
+32.Closures
+Question: find the secret password?
+function createPerson() {
+  return(correctPassword === ??) ?
+  console.log(name.getSeret('Password')); // false
+  console.logname.getSeret('Password')); // true
+}:
+
+Answer:
+
+function createPerson() {
+  var correctPassword = "somePassword";
+  return {
+    name: "bruno",
+    getSecret: function (password) {
+      return (correctPassword === password) ? "my secret" : false;
+    }
+  };
+}
+
+var bruno = createPerson();
+
+console.log(buruno.getSeret('hgty')); // false
+console.log(buruno.getSeret('somePassword')); // true
