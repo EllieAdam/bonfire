@@ -620,3 +620,26 @@ var bruno = createPerson();
 
 console.log(buruno.getSeret('hgty')); // false
 console.log(buruno.getSeret('somePassword')); // true
+
+33.
+Question: How would you compare two objects in JavaScript?
+Answer:
+Equality check will check whether two objects have same value for same property.
+
+function isEqual(a, b) {
+    var aProps = Object.getOwnPropertyNames(a),
+        bProps = Object.getOwnPropertyNames(b);
+
+    if (aProps.length != bProps.length) {
+        return false;
+    }
+
+    for (var i = 0; i < aProps.length; i++) {
+        var propName = aProps[i];
+
+        if (a[propName] !== b[propName]) {
+            return false;
+        }
+    }
+    return true;
+}
