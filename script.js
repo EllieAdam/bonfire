@@ -671,3 +671,26 @@ inner func:  self.foo = bar
 
 2. In the inner function, though, this no longer refers to myObject. As a result, this.foo is undefined in the inner function.
 3. whereas the reference to the local variable self remains in scope and is accessible there.
+
+35.
+Question: What is the output out of the following code? Explain your answer.
+
+var a={},
+    b={key:'b'},
+    c={key:'c'};
+
+a[b]=123;
+a[c]=456;
+
+console.log(a[b]);
+Answer:
+What is the output out of the following code? Explain your answer.
+
+var a={},
+    b={key:'b'},
+    c={key:'c'};
+
+a[b]=123;
+a[c]=456;
+
+console.log(a[b]);
