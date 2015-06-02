@@ -694,3 +694,30 @@ a[b]=123;
 a[c]=456;
 
 console.log(a[b]);
+
+
+36.Define the basic difference between .call() and .apply() is in the way arguments are passed to the function. 
+Question:
+
+Answer:
+  myProperty : 'Foo',
+
+    myMethod : function(prefix, postfix) {
+
+    alert(prefix + this.myProperty + postfix);
+
+    }
+
+  };
+
+    someObject.myMethod('<', '>'); // alerts '<Foo>'
+
+    var someOtherObject  = {
+
+    myProperty : 'Bar'
+
+  };
+
+  someObject.myMethod.call(someOtherObject, '<', '>'); // alerts '<Bar>'
+
+  someObject.myMethod.apply(someOtherObject, ['<', '>']); // alerts '<Bar>'
