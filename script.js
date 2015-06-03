@@ -696,7 +696,7 @@ a[c]=456;
 console.log(a[b]);
 
 
-36.Define the basic difference between .call() and .apply() is in the way arguments are passed to the function. 
+36.Define the basic difference between .call() and .apply() is in the way arguments are passed to the function. i
 Question:
 
 Answer:
@@ -721,3 +721,49 @@ Answer:
   someObject.myMethod.call(someOtherObject, '<', '>'); // alerts '<Bar>'
 
   someObject.myMethod.apply(someOtherObject, ['<', '>']); // alerts '<Bar>'
+
+  37.
+  Question:  How will you explain closures in JavaScript? When are they used?
+  Answer:
+
+  function greet(message) {
+
+console.log(message);
+
+}
+
+function greeter(name, age) {
+
+return name + " says howdy!! He is " + age + " years old";
+
+}
+
+// Generate the message
+
+var message = greeter("James", 23);
+
+// Pass it explicitly to greet
+
+greet(message);
+
+This function can be better represented by using closures
+
+function greeter(name, age) {
+
+var message = name + " says howdy!! He is " + age + " years old";
+
+return function greet() {
+
+console.log(message);
+
+};
+
+}
+
+// Generate the closure
+
+var JamesGreeter = greeter("James", 23);
+
+// Use the closure
+
+JamesGreeter();
