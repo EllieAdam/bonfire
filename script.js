@@ -767,3 +767,12 @@ var JamesGreeter = greeter("James", 23);
 // Use the closure
 
 JamesGreeter();
+
+
+39.
+Question:
+What is Collection API ?
+Answer:
+The Collection API is a set of classes and interfaces that support operation on collections of objects. These classes and interfaces are more flexible, more powerful, and more regular than the vectors, arrays, and hashtables if effectively replaces.
+Example of classes: HashSet, HashMap, ArrayList, LinkedList, TreeSet and TreeMap.
+Example of interfaces: Collection, Set, List and Map.
