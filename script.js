@@ -771,6 +771,17 @@ JamesGreeter();
 
 39.
 Question:
+
+
+
+
+
+
+
+
+
+40.
+Question:
 What is Collection API ?
 Answer:
 The Collection API is a set of classes and interfaces that support operation on collections of objects. These classes and interfaces are more flexible, more powerful, and more regular than the vectors, arrays, and hashtables if effectively replaces.
