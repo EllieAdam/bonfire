@@ -364,6 +364,7 @@ console.log(+"1" +  "1" + "5");
 console.log( "A" - "B" + "2");
 console.log( "A" - "B" + 2);
 
+Difficulty: 1....
 Answer:
 The above code will output the following to the console:
 "143"
@@ -395,6 +396,8 @@ arr2.push(arr3);
 console.log("array 1: length=" + arr1.length + " last=" + arr1.slice(-1));
 console.log("array 2: length=" + arr2.length + " last=" + arr2.slice(-1));
 
+
+Difficulty: 1....
 Asnwer:
 The logged output will be:
 
@@ -416,6 +419,7 @@ a[b]=674;
 a[c]=489;
 
 console.log(a[b]);
+Difficulty: 1....
 
 Answer:
 The output of this code will be 489 (not 674).
@@ -429,6 +433,7 @@ console.log("0 || 1 = "+(0 || 1));
 console.log("1 || 2 = "+(1 || 2));
 console.log("0 && 1 = "+(0 && 1));
 console.log("1 && 2 = "+(1 && 2));
+Difficulty: 1....
 
 Answer
 The code will output the following four lines:
@@ -447,6 +452,7 @@ However, the interesting thing with the && operator os that when an expression i
 
 26.
 Question . What will the following code output to the console:
+Difficulty: 1....
 
 console.log((function f(n){
   return ((n > 1) ? n * f(n-1) : n)
@@ -483,6 +489,8 @@ function test() {
 }
 
 test();
+
+Difficulty: 1....
 Answer.
 
 function test() {
@@ -513,6 +521,7 @@ function sum() {
 }
 sum(1,2,3); // 6
 
+Difficulty: 1....
 
 Answer:
 var data = [1,2,3];
@@ -531,6 +540,7 @@ var myString = null; // Manipulate the value
 console.log(myString, myStringCopy);
 Ans: // Logs 'null Vicky'
 
+Difficulty: 1....
 
 30.
 Question: fibonacci function
@@ -547,6 +557,7 @@ switch (n) {
     case 1: return 1;
     default: return fibonacci(n - 2) + fibonacci(n - 1);
 }
+Difficulty: 1....
 
 31.Closures
 Question: return favoriteGame?
@@ -594,7 +605,7 @@ var ballGame = favoriteGame();
 
 console.log(ballGame());
 
-
+Difficulty: 1....
 
 32.Closures
 Question: find the secret password?
@@ -620,6 +631,7 @@ var bruno = createPerson();
 
 console.log(buruno.getSeret('hgty')); // false
 console.log(buruno.getSeret('somePassword')); // true
+Difficulty: 1....
 
 33.
 Question: How would you compare two objects in JavaScript?
@@ -659,6 +671,7 @@ var myObject = {
     }
 };
 myObject.func();
+Difficulty: 1....
 
 Answer:
 outer func:  this.foo = bar
@@ -671,6 +684,7 @@ inner func:  self.foo = bar
 
 2. In the inner function, though, this no longer refers to myObject. As a result, this.foo is undefined in the inner function.
 3. whereas the reference to the local variable self remains in scope and is accessible there.
+Difficulty: 1....
 
 35.
 Question: What is the output out of the following code? Explain your answer.
@@ -694,6 +708,7 @@ a[b]=123;
 a[c]=456;
 
 console.log(a[b]);
+Difficulty: 1....
 
 
 36.Define the basic difference between .call() and .apply() is in the way arguments are passed to the function. i
@@ -721,6 +736,7 @@ Answer:
   someObject.myMethod.call(someOtherObject, '<', '>'); // alerts '<Bar>'
 
   someObject.myMethod.apply(someOtherObject, ['<', '>']); // alerts '<Bar>'
+  Difficulty: 1....
 
   37.
   Question:  How will you explain closures in JavaScript? When are they used?
@@ -767,6 +783,7 @@ var JamesGreeter = greeter("James", 23);
 // Use the closure
 
 JamesGreeter();
+Difficulty: 1....
 
 
 39.
@@ -803,9 +820,12 @@ console.log(landscape());
 
 
 
+
 40.
 Question:
 What is Collection API ?
+Difficulty: 1....
+
 Answer:
 The Collection API is a set of classes and interfaces that support operation on collections of objects. These classes and interfaces are more flexible, more powerful, and more regular than the vectors, arrays, and hashtables if effectively replaces.
 Example of classes: HashSet, HashMap, ArrayList, LinkedList, TreeSet and TreeMap.
