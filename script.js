@@ -852,3 +852,8 @@ function theGameOfHoistingDoom() {
   wizard = racing;
   return wizard();
 }
+42.
+Question 
+Difficulty: 1....
+
+Answer:
