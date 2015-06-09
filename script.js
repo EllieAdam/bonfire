@@ -852,8 +852,24 @@ function theGameOfHoistingDoom() {
   wizard = racing;
   return wizard();
 }
-42.
-Question 
+42.Question: How would you implement currying for any functions?
 Difficulty: 1....
 
+/*What is curring: Curring is partial invocation of a function. Currying means first few arguments of a function is pre-processed and a function is returned. The returning function can add more arguments to the curried function. It is like if you have given one or two spice to the curry and cooked little bit, still you can add further spice to it. A simple example will look like- */
+
+
 Answer:
+function addBase(base){
+  return function(num){
+    return base + num;
+  }
+}
+
+var addTen = addBase(10);
+addTen(7); //17
+addTen(90); //100
+addTen(-4); //6
+
+
+43.Question: How would you implement currying for any functions?
+Difficulty: 1....
