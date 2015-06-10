@@ -1,7 +1,13 @@
-1
-Question: Trip miles
+
+Question: 1: Trip miles
 Calculate the trip miles and return autoMeter reading??
 Difficulty: 1....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
 
 Ans:
 function calculateTrip(totalmiles) {
@@ -23,6 +29,13 @@ console.log( autoMeter);
 Question: AwesomeFCC
 Find the awesomeFCC and return its value
 Difficulty: 1....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+
 Ans:
 
 var awesomeFCC = 'Camper developers'; //Global scope
@@ -36,6 +49,12 @@ whatIsAwesome();
 Question: whatIsAwesome
 Find the awesomeFCC and return its value
 Difficulty: 1....
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+
 
 Ans:
 function whatIsAwesome() {
@@ -52,6 +71,12 @@ Calculate the driving age with help of if/else statements.
 
 
 Difficulty: 1....
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+
 Ans:
 
 var age = 102;
@@ -69,6 +94,13 @@ Calculate the driving age with help of if/else statements.
 
 
 Difficulty: 1....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+
 Ans:
 var age = 20;
 if (age >= 35) {
@@ -88,6 +120,13 @@ Question: Number of pets
 
 Calculate the driving age with help of if/else statements.
 Difficulty: 1....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+
 Ans:
 
 var pets = 5;
@@ -98,11 +137,18 @@ if (pets >=2 && pets <7) {
 }
 
 
-8
-Question:
+
+Question 8:
 BottlesOfWine
 calculate number of bottles to design
 Difficulty: 1....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+
 Ans:
 
 var bottlesOfWine = 99;
@@ -117,6 +163,13 @@ Question Buzz Bang
 say Buzz Bang
 
 Difficulty: 1....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+
 Ans:
 //Count from 1 to 50
 for (var i = 1; i <= 50; i++) {
@@ -136,6 +189,13 @@ for (var i = 1; i <= 50; i++) {
 Question: My cat
 Find my cats age
 Difficulty: 1....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+
 Ans:
 
 var myCats = [
@@ -154,6 +214,12 @@ for (var i = 0; i < myCats.length; i++) {
 Question: DescribeCat
 Find out the age and fur color?
 Difficulty: 1....
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+
 Ans:
 
 var LionaTheCat = {
@@ -175,6 +241,13 @@ Question: DamonTheDog
 What damon eats?
 
 Difficulty: 1....
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+
+
 Ans:
 var DamonTheDog = {
   age: 2,
@@ -197,6 +270,12 @@ Add a, b
 
 
 Difficulty: 1....
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+
 Ans:
 
 var add = function(a,b) {
@@ -211,6 +290,12 @@ add(3,10,5,4,3,6,7,88); //??
 14 Question :animalMaker
 
 Difficulty: 1....
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+
 Ans:
 var animalMaker = function(name){
   return {
@@ -231,6 +316,12 @@ var farm = [];
   15-getFunc
 
   Difficulty: 1....
+  options:
+  1.expect(find('')).to.be.a('');
+  2.expect(find('')).to.be.a('');
+  3.expect(find('')).to.be.a('');
+  4.expect(find('')).to.be.a('');
+
   Ans:
   function getFunc() {
     var a = 7;
@@ -250,6 +341,12 @@ addg =  applyg(add);
 addg(5) (6)  //11
 applyg(mul) (7) (8) // 56
 Difficulty: 1....
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+
 
 Answer
 function applyg(binary) {
@@ -266,6 +363,13 @@ Q.  Write a function that takes a function and arguments, and returns a function
 	add5(7)      //12
 	curry(mul, 5) (7) //   35
   Difficulty: 1....
+
+  options:
+  1.expect(find('')).to.be.a('');
+  2.expect(find('')).to.be.a('');
+  3.expect(find('')).to.be.a('');
+  4.expect(find('')).to.be.a('');
+
 
 	Answer
 function curry(func, first) {
@@ -289,6 +393,12 @@ function curry(func, …first) {
 Q without writing any new functions, show three ways to create the inc function.
 inc(7) // 8
 inc(inc(7)) //9
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+
 	Answer
 1.	inc = addg(1);
 2.	inc = applyg(add) (1);
@@ -299,6 +409,12 @@ Number. Prototype.add =
 		Methodized(add);
 (4).add(5)    // 9
 Difficulty: 1....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
 
 
 Answer:
@@ -317,6 +433,13 @@ function methodize (func) {
 Question: Write demethodize, a function that converts a method function to a binary.
 Demethodize(Number.prototype.add) (5, 8) //13
 Difficulty: 1....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+
 
 Answer:
 function demethodize (func) {
@@ -343,6 +466,12 @@ Question : In what order will the numbers 1-4 be logged to the console when the 
 })();
 Difficulty: 2....
 
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+
 Ans:
 The values will be logged in the following order:
 1
@@ -365,6 +494,13 @@ console.log( "A" - "B" + "2");
 console.log( "A" - "B" + 2);
 
 Difficulty: 1....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+
 Answer:
 The above code will output the following to the console:
 "143"
@@ -398,6 +534,13 @@ console.log("array 2: length=" + arr2.length + " last=" + arr2.slice(-1));
 
 
 Difficulty: 1....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+
 Asnwer:
 The logged output will be:
 
@@ -421,6 +564,13 @@ a[c]=489;
 console.log(a[b]);
 Difficulty: 1....
 
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+
+
 Answer:
 The output of this code will be 489 (not 674).
 
@@ -434,6 +584,12 @@ console.log("1 || 2 = "+(1 || 2));
 console.log("0 && 1 = "+(0 && 1));
 console.log("1 && 2 = "+(1 && 2));
 Difficulty: 1....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
 
 Answer
 The code will output the following four lines:
@@ -491,6 +647,13 @@ function test() {
 test();
 
 Difficulty: 1....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+
 Answer.
 
 function test() {
@@ -523,6 +686,13 @@ sum(1,2,3); // 6
 
 Difficulty: 1....
 
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+
+
 Answer:
 var data = [1,2,3];
 sum.apply(null, data); // 6
@@ -541,6 +711,13 @@ console.log(myString, myStringCopy);
 Ans: // Logs 'null Vicky'
 
 Difficulty: 1....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+
 
 30.
 Question: fibonacci function
@@ -563,6 +740,13 @@ Difficulty: 1....
 Question: return favoriteGame?
 var gameTime = "everyDay";
 //call ballGame inside favoriteGame
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+
 Answer:
 var gameTime = "everyDay";
 
@@ -615,6 +799,12 @@ function createPerson() {
   console.logname.getSeret('Password')); // true
 }:
 
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+
 Answer:
 
 function createPerson() {
@@ -635,6 +825,13 @@ Difficulty: 1....
 
 33.
 Question: How would you compare two objects in JavaScript?
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+
 Answer:
 Equality check will check whether two objects have same value for same property.
 
@@ -672,6 +869,13 @@ var myObject = {
 };
 myObject.func();
 Difficulty: 1....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+
 
 Answer:
 outer func:  this.foo = bar
