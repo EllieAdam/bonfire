@@ -901,6 +901,14 @@ a[b]=123;
 a[c]=456;
 
 console.log(a[b]);
+Difficulty: 1....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+
 Answer:
 What is the output out of the following code? Explain your answer.
 
@@ -915,10 +923,18 @@ console.log(a[b]);
 Difficulty: 1....
 
 
-36.Define the basic difference between .call() and .apply() is in the way arguments are passed to the function. i
-Question:
+36.Question: Define the basic difference between .call() and .apply() is in the way arguments are passed to the function.
+
+Difficulty: 1....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
 
 Answer:
+
   myProperty : 'Foo',
 
     myMethod : function(prefix, postfix) {
@@ -944,6 +960,14 @@ Answer:
 
   37.
   Question:  How will you explain closures in JavaScript? When are they used?
+  Difficulty: 1....
+
+  options:
+  1.expect(find('')).to.be.a('');
+  2.expect(find('')).to.be.a('');
+  3.expect(find('')).to.be.a('');
+  4.expect(find('')).to.be.a('');
+
   Answer:
 
   function greet(message) {
@@ -990,11 +1014,27 @@ JamesGreeter();
 Difficulty: 1....
 
 
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+
 39.
 Question:return the landscape value
 var = landscape
 var = flate
 var = mountain
+
+Difficulty: 1....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+
 Answer:
 var landscape = function() {
   var result = "";
@@ -1030,6 +1070,14 @@ Question:
 What is Collection API ?
 Difficulty: 1....
 
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+
+
 Answer:
 The Collection API is a set of classes and interfaces that support operation on collections of objects. These classes and interfaces are more flexible, more powerful, and more regular than the vectors, arrays, and hashtables if effectively replaces.
 Example of classes: HashSet, HashMap, ArrayList, LinkedList, TreeSet and TreeMap.
@@ -1061,6 +1109,13 @@ Difficulty: 1....
 
 /*What is curring: Curring is partial invocation of a function. Currying means first few arguments of a function is pre-processed and a function is returned. The returning function can add more arguments to the curried function. It is like if you have given one or two spice to the curry and cooked little bit, still you can add further spice to it. A simple example will look like- */
 
+Difficulty: 1....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
 
 Answer:
 function addBase(base){
@@ -1077,3 +1132,9 @@ addTen(-4); //6
 
 43.Question: How would you implement currying for any functions?
 Difficulty: 1....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
