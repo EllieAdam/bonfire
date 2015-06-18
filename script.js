@@ -1130,7 +1130,7 @@ addTen(90); //100
 addTen(-4); //6
 
 
-43.Question: How would you implement currying for any functions?
+43.Question: How would you implement ?
 Difficulty: 1....
 
 options:
@@ -1138,6 +1138,22 @@ options:
 2.expect(find('')).to.be.a('');
 3.expect(find('')).to.be.a('');
 4.expect(find('')).to.be.a('');
+Ans:
+function checkForm()
+{
+  // First, create our own variable so we don't have to keep typing
+  // all that document.getElementById stuff
+  var optBudlight = document.getElementById("optbudl");
+
+  if (optBudlight.[what property should go here?] == false)
+  {
+    window.alert("Please select your favourite beer!");
+    return false;
+  }
+
+  return true;
+}
+
 
 44.Question: ?
 Difficulty: 1....
