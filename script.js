@@ -1155,7 +1155,21 @@ function checkForm()
 }
 
 
-44.Question: ?
+44.Question: write a revocable function that allows you to do something like:
+// temp = revocable(alert);
+// temp.invoke(7); -> alert: 7
+// temp.revoke();
+// temp.invoke(8); -> throw
+
+function revocable(z) {
+  return {
+    invoke: function() {
+      return z.apply(this, arguments);
+    },
+    revoke: function() {
+      z = null;
+    }
+  }
 Difficulty: 1....
 
 options:
