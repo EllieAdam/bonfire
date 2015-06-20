@@ -1160,7 +1160,15 @@ function checkForm()
 // temp.invoke(7); -> alert: 7
 // temp.revoke();
 // temp.invoke(8); -> throw
+Difficulty: 1....
 
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+
+Ans:
 function revocable(z) {
   return {
     invoke: function() {
@@ -1170,6 +1178,9 @@ function revocable(z) {
       z = null;
     }
   }
+
+
+45.Question: closures
 Difficulty: 1....
 
 options:
@@ -1177,16 +1188,22 @@ options:
 2.expect(find('')).to.be.a('');
 3.expect(find('')).to.be.a('');
 4.expect(find('')).to.be.a('');
+Ans:
 
 
-45.Question: ?
-Difficulty: 1....
 
-options:
-1.expect(find('')).to.be.a('');
-2.expect(find('')).to.be.a('');
-3.expect(find('')).to.be.a('');
-4.expect(find('')).to.be.a('');
+var mylevel = "top-level";
+function bestLevel() {
+  var mylevel = "local";
+  function poorlevel() {
+    print(mylevel);
+  }
+  return poorleve;
+}
+
+var poor = bestLeve();
+poor();
+
 
 46.Question: ?
 Difficulty: 1....
@@ -1218,6 +1235,34 @@ options:
 
 
 49.Question: ?
+Difficulty: 1....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+
+50.Question: ?
+Difficulty: 1....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+
+
+51.Question: ?
+Difficulty: 1....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+
+52.Question: ?
 Difficulty: 1....
 
 options:
