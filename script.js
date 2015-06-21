@@ -1205,7 +1205,7 @@ var poor = bestLeve();
 poor();
 
 
-46.Question: ?
+46.Question: Fix this problem by using a custom event hide on Appointment models.
 Difficulty: 1....
 
 options:
@@ -1213,6 +1213,16 @@ options:
 2.expect(find('')).to.be.a('');
 3.expect(find('')).to.be.a('');
 4.expect(find('')).to.be.a('');
+
+Ans:
+var AppointmentView = Backbone.View.extend({
+  initialize: function(){
+    this.model.on('hide', this.remove, this);
+  },
+  remove: function(){
+    this.$el.remove();
+  }
+});
 
 
 47.Question: ?
@@ -1281,6 +1291,60 @@ options:
 4.expect(find('')).to.be.a('');
 
 54.Question: ?
+Difficulty: 1....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+
+55.Question: ?
+Difficulty: 1....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+
+56.Question: ?
+Difficulty: 1....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+
+57.Question: ?
+Difficulty: 1....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+
+58.Question: ?
+Difficulty: 1....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+
+59.Question: ?
+Difficulty: 1....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+
+60.Question: ?
 Difficulty: 1....
 
 options:
