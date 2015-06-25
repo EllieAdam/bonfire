@@ -1233,6 +1233,19 @@ options:
 2.expect(find('')).to.be.a('');
 3.expect(find('')).to.be.a('');
 4.expect(find('')).to.be.a('');
+Ans:
+
+x = findMax(1, 123, 500, 115, 44, 88);
+
+function findMax() {
+    var i, max = 0;
+    for (i = 0; i < arguments.length; i++) {
+        if (arguments[i] > max) {
+            max = arguments[i];
+        }
+    }
+    return max;
+}
 
 48.Question: ?
 Difficulty: 1....
