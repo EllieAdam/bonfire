@@ -1255,6 +1255,8 @@ options:
 2.expect(find('')).to.be.a('');
 3.expect(find('')).to.be.a('');
 4.expect(find('')).to.be.a('');
+Ans:
+
 
 
 49.Question: ?
