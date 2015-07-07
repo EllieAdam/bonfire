@@ -1455,6 +1455,7 @@ options:
 
 
 65.Question: ?
+
 Difficulty: 1....
 
 options:
@@ -1463,6 +1464,13 @@ options:
 3.expect(find('')).to.be.a('');
 4.expect(find('')).to.be.a('');
 
+Ans.
+
+var container = document.getElementById('container');
+for(var i = 0, len = someArray.length; i < len;  i++) {
+   container.innerHtml += 'my number: ' + i;
+   console.log(i);
+}
 
 66.Question: ?
 Difficulty: 1....
@@ -1554,6 +1562,24 @@ options:
 
 
 75.Question: ?
+Difficulty: 1....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+
+76.Question: ?
+Difficulty: 1....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+
+77.Question: ?
 Difficulty: 1....
 
 options:
