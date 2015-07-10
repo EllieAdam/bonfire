@@ -1281,7 +1281,11 @@ console.log(power(2, 10));
 // → 1024
 
 
-49.Question: ?
+49.Question:
+Find the n in array?
+var n = array[0];
+array = array.slice(1);
+
 Difficulty: 1....
 
 options:
@@ -1289,34 +1293,37 @@ options:
 2.expect(find('')).to.be.a('');
 3.expect(find('')).to.be.a('');
 4.expect(find('')).to.be.a('');
+Ans.
+var array = [1,2,3,4]; //<Made an array
+var n = array[0]; //<Saved first element in n.
+array = array.slice(1); //Created new array from slice, destroyed reference to original
+
+a[0] = 5;
+console.log(a);
+
+a = [1,2,3,4]
+function dontChange( arr ) {
+  var b = array[0]; //b is copied from 0th of [1,2,3,4], which is 1.
+  arr = arr.slice(1); //a is a new array, copied from 1st->3rd of [1,2,3,4], which is [2,3,4].
+  return arr;
+
+console.log( dontChange( a ) ); //runs above function, logs the new array [2,3,4]
+console.log( a ); //logs the original, unchanged array [1,2,3,4]. We never touched it! Only copied.
+
+
+
 
 50.Question: ?
 Difficulty: 1....
 
+options:var n = array[0];
+array = array.slice(1);
 options:
 1.expect(find('')).to.be.a('');
 2.expect(find('')).to.be.a('');
 3.expect(find('')).to.be.a('');
 4.expect(find('')).to.be.a('');
 
-
-51.Question: ?
-Difficulty: 1....
-
-options:
-1.expect(find('')).to.be.a('');
-2.expect(find('')).to.be.a('');
-3.expect(find('')).to.be.a('');
-4.expect(find('')).to.be.a('');
-
-52.Question: ?
-Difficulty: 1....
-
-options:
-1.expect(find('')).to.be.a('');
-2.expect(find('')).to.be.a('');
-3.expect(find('')).to.be.a('');
-4.expect(find('')).to.be.a('');
 
 53.Question: ?
 Difficulty: 1....
