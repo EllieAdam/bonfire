@@ -1247,7 +1247,13 @@ function findMax() {
     return max;
 }
 
-48.Question: ?
+48.Question: you need to find the square function??
+var square = function(x) {
+  return x * x;
+};
+
+console.log(square(12));
+// → 144
 Difficulty: 1....
 
 options:
@@ -1256,7 +1262,23 @@ options:
 3.expect(find('')).to.be.a('');
 4.expect(find('')).to.be.a('');
 Ans:
+var makeNoise = function() {
+  console.log("Pling!");
+};
 
+
+makeNoise();
+// → Pling!
+
+var power = function(base, exponent) {
+  var result = 1;
+  for (var count = 0; count < exponent; count++)
+    result *= base;
+  return result;
+};
+
+console.log(power(2, 10));
+// → 1024
 
 
 49.Question: ?
