@@ -1485,7 +1485,9 @@ var c = new circle(3);
 console.log('Area =', c.area().toFixed(2));
 console.log('perimeter =', c.perimeter().toFixed(2));
 
-56.Question: ?
+56.Question:
+Write a JavaScript function to get the values of First and Last name of the following form.
+
 Difficulty: 1....
 
 options:
@@ -1494,7 +1496,18 @@ options:
 3.expect(find('')).to.be.a('');
 4.expect(find('')).to.be.a('');
 
-
+Ans.
+function getFormvalue()
+{
+  var x=document.getElementById("form1");
+  for (var i=0;i<x.length;i++)
+  {
+   if (x.elements[i].value!='Submit')
+    {
+      console.log(x.elements[i].value);
+     }
+   }
+}
 57.Question: ?
 Difficulty: 1....
 
