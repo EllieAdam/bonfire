@@ -1313,7 +1313,24 @@ console.log( a ); //logs the original, unchanged array [1,2,3,4]. We never touch
 
 
 
-50.Question: ?
+50.Question: Write a JavaScript program to display the reading status (i.e. display book name, author name and reading status) of the following books
+var library = [
+   {
+       title: 'Javascrit',
+       author: 'Kyle Simpson',
+       readingStatus: true
+   },
+   {
+       title: 'Python',
+       author: 'Henery Jon',
+       readingStatus: true
+   },
+   {
+       title: 'Ruby',
+       author: 'Deb Fox',
+      readingStatus: false
+   }];
+
 Difficulty: 1....
 
 options:var n = array[0];
@@ -1324,8 +1341,25 @@ options:
 3.expect(find('')).to.be.a('');
 4.expect(find('')).to.be.a('');
 
+Ans.
+for (var i = 0; i < library.length; i++)
+   {
+    var book = "'" + library[i].title + "'" + ' by ' + library[i].author + ".";
+    if (library[i].readingStatus) {
+      console.log("Already read " + book);
+    } else
+    {
+     console.log("You still need to read " + book);
+    }
+   }
 
-53.Question: ?
+
+53.Question:
+Write a Bubble Sort algorithm in JavaScript.
+
+Note : Bubble sort is a simple sorting algorithm that works by repeatedly stepping through the list to be sorted,
+Sample Data : [6,4,0, 3,-2,1]
+Expected Output : [-2, 0, 1, 3, 4, 6]
 Difficulty: 1....
 
 options:
@@ -1334,8 +1368,43 @@ options:
 3.expect(find('')).to.be.a('');
 4.expect(find('')).to.be.a('');
 
-54.Question: ?
-Difficulty: 1....
+
+Ans.
+Array.prototype.bubbleSort_algo = function()
+{
+var is_sorted = false;
+ while (!is_sorted)
+ {
+    is_sorted = true;
+    for (var n = 0; n < this.length - 1; n++)
+    {
+      if (this[n] > this[n+1]){
+        var x = this[n+1];
+        this[n+1] = this[n];
+        this[n] = x;
+        is_sorted = false;
+      }
+    }
+  }
+  return this;
+};
+
+console.log([6,4,0, 3,-2,1].bubbleSort_algo());
+
+54.Question:
+Write a JavaScript program to create a Clock.
+
+Note : The output will come every second.
+Expected Console Output :
+"23:31:42"
+"23:31:43"
+"23:31:44"
+"23:31:45"
+"23:31:46"
+"23:31:47"
+
+
+Difficulty: 2....
 
 options:
 1.expect(find('')).to.be.a('');
@@ -1343,6 +1412,44 @@ options:
 3.expect(find('')).to.be.a('');
 4.expect(find('')).to.be.a('');
 
+
+Ans.
+function my_Clock()
+  {
+  this.cur_date = new Date();
+  this.hours = this.cur_date.getHours();
+  this.minutes = this.cur_date.getMinutes();
+  this.seconds = this.cur_date.getSeconds();
+  }
+my_Clock.prototype.run = function ()
+  {
+  setInterval(this.update.bind(this), 1000);
+  };
+my_Clock.prototype.update = function ()
+  {
+  this.updateTime(1);
+  console.log(this.hours + ":" + this.minutes + ":" + this.seconds);
+  };
+my_Clock.prototype.updateTime = function (secs)
+  {
+  this.seconds+= secs;
+ if (this.seconds >= 60)
+  {
+  this.minutes++;
+  this.seconds= 0;
+  }
+ if (this.minutes >= 60)
+  {
+  this.hours++;
+  this.minutes=0;
+  }
+if (this.hours >= 24)
+  {
+  this.hours = 0;
+  }
+};
+var clock = new my_Clock();
+  clock.run();
 55.Question: ?
 Difficulty: 1....
 
