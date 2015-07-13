@@ -1508,7 +1508,19 @@ function getFormvalue()
      }
    }
 }
-57.Question: ?
+57.Question: 
+Create a method on the contact object called fullName, use the programming from the printFullName function.
+
+function printFullName() {
+  var firstName = "Andy";
+  var lastName = "kinly";
+  console.log(firstName + " " + lastName);
+}
+
+var contact = {
+  
+}
+
 Difficulty: 1....
 
 options:
@@ -1516,8 +1528,29 @@ options:
 2.expect(find('')).to.be.a('');
 3.expect(find('')).to.be.a('');
 4.expect(find('')).to.be.a('');
+
+Ans.
+
+
+var contact = {
+  fullName: function printFullName() {
+  var firstName = "Andy";
+  var lastName = "Kindly";
+  console.log(firstName + " " + lastName);
+  }  
+}
 
 58.Question: ?
+finish off the code to correctly access the properties on the contact with the this keyword.
+
+
+var contact = {
+  firstName : "Andrew",
+  lastName : "Chalkley",
+  fullName: function() {
+    console.log(firstName + " " + lastName);
+  }
+}
 Difficulty: 1....
 
 options:
@@ -1525,7 +1558,15 @@ options:
 2.expect(find('')).to.be.a('');
 3.expect(find('')).to.be.a('');
 4.expect(find('')).to.be.a('');
+Ans.
 
+var contact = {
+  firstName : "Andy",
+  lastName : "kindly",
+  fullName: function() {
+    console.log(this.firstName + " " + this.lastName);
+  }
+}
 
 57.Question: ?
 Difficulty: 1....
