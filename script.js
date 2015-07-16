@@ -1567,7 +1567,15 @@ var contact = {
   }
 }
 
-57.Question: ?
+57.Question: 
+making a constructor function with a function expression!
+
+var unicorn = {
+  name: "Twilight Sparkle",
+  color: "purple",
+  wings: true,
+  getName: function() {return "Hi, I'm " + unicorn.name;}
+};
 Difficulty: 1....
 
 options:
@@ -1575,6 +1583,19 @@ options:
 2.expect(find('')).to.be.a('');
 3.expect(find('')).to.be.a('');
 4.expect(find('')).to.be.a('');
+Answer
+
+
+var Unicorn = function(name, color, wings) { 
+  this.name = name;
+  this.color = color;
+  this.wings = wings;
+  this.getName = function() {return "Hi, I'm " + this.name;};
+};
+
+var twilightSparkle = new Unicorn('Twilight Sparkle', 'purple', true);
+
+twilightSparkle.constructor
 
 58.Question: ?
 Difficulty: 1....
