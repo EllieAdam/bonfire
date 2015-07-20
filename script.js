@@ -1708,7 +1708,13 @@ for(var i = 0, len = someArray.length; i < len;  i++) {
    console.log(i);
 }
 
-66.Question: ?
+66.Question: 
+find the value of x as new function.
+
+function myFunction(boat, RV) {
+    this.firstChoice = boat;
+    this.secondChoice  = RV;
+}
 Difficulty: 1....
 
 options:
@@ -1716,6 +1722,16 @@ options:
 2.expect(find('')).to.be.a('');
 3.expect(find('')).to.be.a('');
 4.expect(find('')).to.be.a('');
+Answer
+// This is a function constructor:
+function myFunction(boat, RV) {
+    this.firstChoice = boat;
+    this.secondChoice  = RV;
+}
+
+// This	creates a new object
+var x = new myFunction("SpeedBoat","desertHawk");
+x.firstChoice;                             // Will return "SpeedBoat"
 
 
 67.Question: ?
