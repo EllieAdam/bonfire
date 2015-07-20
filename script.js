@@ -1597,16 +1597,30 @@ var twilightSparkle = new Unicorn('Twilight Sparkle', 'purple', true);
 
 twilightSparkle.constructor
 
-58.Question: ?
+58.Question: 
+Find maxNumber in the list?
+
 Difficulty: 1....
 
 options:
-1.expect(find('')).to.be.a('');
+1.expect(find('maxNumber')).to.be.a('');
 2.expect(find('')).to.be.a('');
 3.expect(find('')).to.be.a('');
 4.expect(find('')).to.be.a('');
 
+Ans.
 
+x = findMaxNumber(10, 223, 500, 215, 64, 98);
+
+function findMaxNumber() {
+    var i, maxNumber = 0;
+    for (i = 0; i < arguments.length; i++) {
+        if (arguments[i] > maxNumber) {
+            maxNumber = arguments[i];
+        }
+    }
+    return maxNumber;
+}
 59.Question: ?
 Difficulty: 1....
 
