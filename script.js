@@ -1629,6 +1629,34 @@ options:
 2.expect(find('')).to.be.a('');
 3.expect(find('')).to.be.a('');
 4.expect(find('')).to.be.a('');
+ANS.
+
+
+//variables
+var coffeeFlavor = "espresso";
+var coffeeTempreture = "piping hot";
+var coffeeOunces = 100;
+var coffeeMilk = true;
+
+//objects
+var myCoffee = {
+    flavor: "espresso",
+    tempreture: "piping hot",
+    ounces: 100,
+    milk: true,
+
+    reheat: function(){
+      if (myCoffee.tempreture === "cold") {
+        myCoffee.tempreture = "piping hot";
+        alert("reheat my Coffee pl");
+      }
+    }
+
+};
+
+myCoffee.tempreture = "cold";
+myCoffee.reheat();
+
 
 60.Question: ?
 Difficulty: 1....
@@ -1640,6 +1668,32 @@ options:
 4.expect(find('')).to.be.a('');
 
 
+var mark = {
+  name: "mark",
+  tshirtColor: "blue"
+};
+
+var lisa = {
+  name: "lisa",
+  tshirtColor: "pink"
+};
+
+//object constructor
+
+function Friend(name, tshirtColor) {
+  this.name = name;
+  this.tshirtColor = tshirtColor;
+};
+
+var deny = new Friend("Deny", "green");
+
+var lori = new Friend("Lori", "red");
+
+
+alert(lori.name);   
+
+
+
 61.Question: ?
 Difficulty: 1....
 
@@ -1648,6 +1702,54 @@ options:
 2.expect(find('')).to.be.a('');
 3.expect(find('')).to.be.a('');
 4.expect(find('')).to.be.a('');
+
+Ans.
+
+var three = "3";
+function alertNumber(){
+  var one = "111";
+  alert(one);
+
+  function alertAnotherNumber(){
+    var two = "2";
+    alert(two);
+    alert(three);
+    alert(one);
+}
+alertAnotherNumber();
+alert(two); //it is local scope - it will not work outside the function.
+}
+alertNumber();  */
+
+
+
+
+62.Question: ?
+
+LameJoke find the joke
+Difficulty: 1....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+
+alert ("hello world!");
+function lameJoke(){
+  randomNumber = Math.round(Math.random() * 2);
+
+  if (randomNumber === 1 ){
+    alert("how you make octopus laugh");
+  } else if (randomNumber === 2) {
+    alert ("why scare crow win?");
+  } else{
+    alert("Why chicken cross the road?");
+  }
+}
+lameJoke();
+
+
 
 62.Question: ?
 Difficulty: 1....
