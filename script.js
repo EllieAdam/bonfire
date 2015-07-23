@@ -10,6 +10,28 @@ options:
 4.expect(find('')).to.be.a('');
 
 Ans:
+function calculateRadius(totalmiles) {
+    var tripMiles = 200; //Can be changed
+    return (total * tripMiles);
+}
+
+var MilesPreTrip = 50000;
+var triplMiles   = calculateTrip(MilesPreTrip);
+var autoMeter   = 'Before: ' + MilesPreTrip + ' Trip: ' + tripMiles +
+    ' Total: ' + (MilesPreTrip + tripMiles);
+console.log( autoMeter);
+
+uestion: 1: Trip miles
+Calculate the trip miles and return autoMeter reading??
+Difficulty: 1....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+
+Ans:
 function calculateTrip(totalmiles) {
     var tripMiles = 200; //Can be changed
     return (total * tripMiles);
