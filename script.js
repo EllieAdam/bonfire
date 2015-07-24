@@ -10,7 +10,7 @@ options:
 4.expect(find('')).to.be.a('');
 
 Ans:
-function calculateRadius(totalmiles) {
+function calculateRadius(totalRadies) {
     var tripMiles = 200; //Can be changed
     return (total * tripMiles);
 }
@@ -2280,6 +2280,17 @@ options:
 
 
 107.Question: ?
+
+Difficulty: 1....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+
+
+108.Question: ?
 
 Difficulty: 1....
 
