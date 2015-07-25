@@ -2288,9 +2288,17 @@ options:
 2.expect(find('')).to.be.a('');
 3.expect(find('')).to.be.a('');
 4.expect(find('')).to.be.a('');
+Ans.
+
+function person(first, last, age, eyecolor) {
+    this.firstName = first;
+    this.lastName = last;
+    this.age = age;
+    this.eyeColor = eyecolor;
+}
 
 
-108.Question: ?
+109.Question: ?
 
 Difficulty: 1....
 
