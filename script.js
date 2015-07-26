@@ -1,3 +1,26 @@
+Question: 0: Total expenses
+Calculate the total expenses and return all expenses??
+Difficulty: 1....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+
+Ans:
+function calculateExpenses(totalExpenses) {
+    var totalExpenses = 200; //Can be changed
+    return (total * total expenses);
+}
+
+var ExpensesPreTrip = 50000;
+var totalSpending   = calculateTotal(ExpensesPreTrip);
+var allExpenses   = 'Before: ' + ExpensesPreTrip + ' Total: ' + totalExpenses +
+    ' Total: ' + (ExpensesPreTrip + totalExpenses);
+console.log( all expenses);
+
+
 
 Question: 1: Trip miles
 Calculate the trip miles and return autoMeter reading??
@@ -21,7 +44,7 @@ var autoMeter   = 'Before: ' + MilesPreTrip + ' Trip: ' + tripMiles +
     ' Total: ' + (MilesPreTrip + tripMiles);
 console.log( autoMeter);
 
-uestion: 1: Trip miles
+Question: 1: Trip miles
 Calculate the trip miles and return autoMeter reading??
 Difficulty: 1....
 
