@@ -2319,8 +2319,6 @@ function person(first, last, age, eyecolor) {
     this.age = age;
     this.eyeColor = eyecolor;
 }
-
-
 109.Question: ?
 
 Difficulty: 1....
@@ -2330,3 +2328,25 @@ options:
 2.expect(find('')).to.be.a('');
 3.expect(find('')).to.be.a('');
 4.expect(find('')).to.be.a('');
+
+
+110.Question: ?
+
+Difficulty: 1....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+
+111.Question: ?
+
+Difficulty: 1....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+
