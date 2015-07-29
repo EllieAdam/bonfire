@@ -1896,13 +1896,23 @@ x.firstChoice;                             // Will return "SpeedBoat"
 
 
 67.Question: ?
+You need to define the function and find the  value of i ?
 Difficulty: 1....
 
 options:
 1.expect(find('')).to.be.a('');
 2.expect(find('')).to.be.a('');
 3.expect(find('')).to.be.a('');
-4.expect(find('')).to.be.a('');
+Answer:
+for i in range(3):
+        print("Smile!"*(i))
+
+for i in range(3):
+    print(iDidNotPayAttentionInTheLastLab() * i)
+
+
+def iDidNotPayAttentionInTheLastLab():
+    return "Smile!"Ans.
 
 
 
