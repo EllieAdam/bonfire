@@ -1949,6 +1949,8 @@ def iDidNotPayAttentionInTheLastLab():
 
 
 68.Question: ?
+Set the push to delay function in logIn.
+
 Difficulty: 1....
 
 options:
@@ -1956,6 +1958,25 @@ options:
 2.expect(find('')).to.be.a('');
 3.expect(find('')).to.be.a('');
 4.expect(find('')).to.be.a('');
+Ans:
+
+Var logIn = '';
+function RecordLog(status, network) {
+	if(status){
+	logIn += network + '|';
+ }
+}
+
+function PushToAnalytics() {
+	if(logIn != ''){
+	logIn = LogIn.substring(0, logIn.length-1);
+	-gaq.push(["_setCustomerVar", 5, 'social Network' , logIn , 1]);
+ }
+}
+
+function PushWithDelay() {
+	setTimeout("PuushToANalytics()", 2000);
+}
 
 
 69.Question: ?
