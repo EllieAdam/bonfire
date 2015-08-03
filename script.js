@@ -2456,3 +2456,44 @@ options:
 3.expect(find('')).to.be.a('');
 4.expect(find('')).to.be.a('');
 
+115.Question: 
+Consider the two functions below. Will they both return 
+the same thing? Why or why not?
+
+function foo1()
+{
+  return {
+      bar: "hello"
+  };
+}
+
+function foo2()
+{
+  return
+  {
+      bar: "hello"
+  };
+}
+Difficulty: 1....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+
+Ans.
+1.
+console.log("foo1 returns:");
+console.log(foo1());
+console.log("foo2 returns:");
+console.log(foo2());
+
+2.
+foo1 returns:
+Object {bar: "hello"}
+foo2 returns:
+undefined 
+
+
+
