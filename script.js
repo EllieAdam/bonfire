@@ -2555,3 +2555,23 @@ document.forms[0].mybutton.
 var name = document.forms[0].FirstName.value;
 
 alert(name);
+
+
+121.Question: ?
+
+
+Difficulty: 3....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+
+
+ANS:
+document.forms[0].mybutton.
+
+var name = document.forms[0].FirstName.value;
+
+alert(name);
