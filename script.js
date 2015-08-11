@@ -2535,6 +2535,20 @@ options:
 
 
 ANS:
+var school = window.school || {};
+school.book = school.book || {};
+
+dojo.setObject("school.book.object", (function(){
+	var book = [];
+	function privateMethode() {
+		console.log(book);
+	}
+	return {
+		publicMethode: function() {
+			privateMethode();
+		}
+	};
+}()));
 
 
 120.Question: ?
