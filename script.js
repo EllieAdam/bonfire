@@ -2498,7 +2498,7 @@ undefined
 
 
 117.Question: ?
-
+Convert Fahrenheit to Celsius:
 Difficulty: 1....
 
 options:
@@ -2506,7 +2506,11 @@ options:
 2.expect(find('')).to.be.a('');
 3.expect(find('')).to.be.a('');
 4.expect(find('')).to.be.a('');
-
+Ans
+function toCelsius(fahrenheit) {
+    return (5/9) * (fahrenheit-32);
+}
+document.getElementById("demo").innerHTML = toCelsius(32);
 
 118.Question: ?
 
@@ -2521,6 +2525,14 @@ options:
 
 
 ANS:
+function sing(arg) {
+    function dance() {
+        console.log('arg: '+arg);
+    }
+    dance();
+}
+console.log(sing('hello')); // arg: hello
+
 
 119.Question: ?
 
