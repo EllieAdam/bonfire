@@ -2620,3 +2620,18 @@ document.forms[1].mybutton.
 var name = document.forms[1].LastName.value;
 
 alert(name);
+
+
+123.Question: ?
+
+
+Difficulty: 3....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+
+
+ANS:
