@@ -1980,6 +1980,7 @@ function PushWithDelay() {
 
 
 69.Question: ?
+
 Difficulty: 1....
 
 options:
@@ -2415,6 +2416,10 @@ options:
 
 
 112.Question: ?
+Add parameters?
+
+
+
 
 Difficulty: 1....
 
@@ -2423,6 +2428,18 @@ options:
 2.expect(find('')).to.be.a('');
 3.expect(find('')).to.be.a('');
 4.expect(find('')).to.be.a('');
+Answers
+
+Var add = function(a, b){
+	results = 0;
+	for(var i = 0; i < arguments.length; i++){
+		results += arguments[i];
+	}
+	return results;
+};
+add(23,34,54,53,98,99); //?
+
+
 
 113.Question: ?
 
