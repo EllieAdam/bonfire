@@ -1829,13 +1829,35 @@ lameJoke();
 
 
 62.Question: ?
+
 Difficulty: 1....
+function blender(fruit) {
+   return ?
+
+}
+blender('blueberry');
 
 options:
 1.expect(find('')).to.be.a('');
 2.expect(find('')).to.be.a('');
 3.expect(find('')).to.be.a('');
 4.expect(find('')).to.be.a('');
+
+Answer
+
+
+var g = 'global';
+
+function blender(fruit) {
+  var b = fruit;
+  var y = 'yogurt';
+
+  function bs() {
+    alert( b + ' and ' + y + ' makes ' + b + ' smoothy ');
+  }
+  bs();
+}
+blender('blueberry');
 
 63.Question: ?
 Difficulty: 1....
