@@ -2676,8 +2676,10 @@ options:
 ANS:
 
 124.Question: ?
-
-
+var add = function(num){
+  var num1 = num;
+}
+  return addToNum1;
 Difficulty: 3....
 
 options:
@@ -2688,3 +2690,17 @@ options:
 
 
 ANS:
+var add = function(num){
+  var num1 = num;
+
+  var addToNum1 = function(num2){
+    return num1 + num2;
+  };
+  return addToNum1;
+};
+var add5 = add(5);
+
+add5(2); //7
+add5(3);
+add5 = add(10);
+add5(2); // 12
