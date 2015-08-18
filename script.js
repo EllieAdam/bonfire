@@ -2704,3 +2704,42 @@ add5(2); //7
 add5(3);
 add5 = add(10);
 add5(2); // 12
+
+
+123.Question: ?
+
+Write a function to find the gaslevel and call func
+
+	return ??
+	go: function(speed){ useGas(speed); }
+	
+Difficulty: 3....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+
+
+Answer.
+var car = function(){
+	var gasLevel =  10;
+
+	function useGas(amt){
+		if(gasLevel - amt < 0){
+			console.log('out of gas :[');
+		} else {
+			gasLevel -= amt;
+		}
+	};
+	return {
+		radioStation: "107.5",
+		changeStation: function(station){
+			this.radioStation = station;
+		},
+		
+		go: function(speed){ useGas(speed); }
+	};
+};
+
