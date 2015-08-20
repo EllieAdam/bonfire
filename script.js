@@ -2653,14 +2653,22 @@ options:
 4.expect(find('')).to.be.a('');
 
 
-ANS:
-document.forms[0].mybutton.
-
-var name = document.forms[0].FirstName.value;
-
-alert(name);
-
 122.Question: ?
+
+
+Difficulty: 3....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+
+
+123.Question: ?
+
+ANS:
+
 
 
 Difficulty: 3....
@@ -2680,7 +2688,7 @@ var name = document.forms[1].LastName.value;
 alert(name);
 
 
-123.Question: ?
+124.Question: ?
 
 
 Difficulty: 3....
@@ -2694,7 +2702,7 @@ options:
 
 ANS:
 
-124.Question: ?
+125.Question: ?
 var add = function(num){
   var num1 = num;
 }
@@ -2725,7 +2733,7 @@ add5 = add(10);
 add5(2); // 12
 
 
-123.Question: ?
+126.Question: ?
 
 Write a function to find the gaslevel and call func
 
