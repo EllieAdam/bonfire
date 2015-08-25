@@ -2829,7 +2829,7 @@ options:
 4.expect(find('')
 
 132.Question: ?
-
+Write a function about animal. show its properties and use if else statements
 
 Difficulty: 3....
 
@@ -2838,3 +2838,31 @@ options:
 2.expect(find('')).to.be.a('');
 3.expect(find('')).to.be.a('');
 4.expect(find('')
+
+class Animal {
+  constructor(type){
+    this.type = type;
+  }
+  static isAnimal(obj, type){
+    if(!Animal.prototype.isPrototypeOf(obj)){
+      return false;
+    }
+    return type ? obj.type === type : true;
+  }
+}
+class Dog extends Animal {
+  constructor(name, breed){
+    super("dog");
+    this.name = name;
+    this.breed = breed;
+  }
+  bark(){
+    console.log("ruff, ruff");
+  }
+  print(){
+    console.log("The dog " + this.name + " is a " + this.breed);
+  }
+  static isDog(obj){
+    return Animal.isAnimal(obj, "dog");
+  }
+}
