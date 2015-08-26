@@ -2002,24 +2002,44 @@ function PushWithDelay() {
 
 
 69.Question: ?
+//var array = ["Deb", 64];
+
+// Only change code below this line.
+
+var myArray = [];
+
+// Only change code above this line.
+// We use this function to show you the value of your variable in your output box.
+// You'll learn about functions soon.
+(function(z){return(z);})(myArray);
 
 Difficulty: 1....
 
 options:
-1.expect(find('')).to.be.a('');
-2.expect(find('')).to.be.a('');
-3.expect(find('')).to.be.a('');
-4.expect(find('')).to.be.a('');
+1.assert(typeof(myArray) == 'object', 'myArray should be an array');
+2.assert(typeof(myArray[0]) !== 'undefined' && typeof(myArray[0]) == 
+  'string', 'The first item in myArray should be a string');
+3.assert(typeof(myArray[1]) !== 'undefined' && typeof(myArray[1]) == 
+  'number', 'The second item in myArray should be a number');
+
+Answer
+
+
+var myArray = ["Deb", 64];
+
+
+(function(z){return(z);})(myArray);
+
 
 70.Question: ?
 Difficulty: 1....
 
+
 options:
 1.expect(find('')).to.be.a('');
 2.expect(find('')).to.be.a('');
 3.expect(find('')).to.be.a('');
 4.expect(find('')).to.be.a('');
-
 
 71.Question: ?
 Difficulty: 1....
