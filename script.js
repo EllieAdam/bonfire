@@ -22,8 +22,8 @@ console.log( all expenses);
 
 
 
-Question: 1: Trip miles
-Calculate the trip miles and return autoMeter reading??
+Question: 1: 
+Find  FuzzBuzz??
 Difficulty: 1....
 
 options:
@@ -33,19 +33,11 @@ options:
 4.expect(find('')).to.be.a('');
 
 Ans:
-function calculateRadius(totalRadies) {
-    var tripMiles = 200; //Can be changed
-    return (total * tripMiles);
-}
+for(i=0;i<100;)
+  console.log((++i%3?'':'Fizz')+(i%5?'':'Buzz')||i)
 
-var MilesPreTrip = 50000;
-var triplMiles   = calculateTrip(MilesPreTrip);
-var autoMeter   = 'Before: ' + MilesPreTrip + ' Trip: ' + tripMiles +
-    ' Total: ' + (MilesPreTrip + tripMiles);
-console.log( autoMeter);
-
-Question: 1: Trip miles
-Calculate the trip miles and return autoMeter reading??
+Question: 1: 
+Find  FuzzBuzz??
 Difficulty: 1....
 
 options:
@@ -55,18 +47,31 @@ options:
 4.expect(find('')).to.be.a('');
 
 Ans:
-function calculateTrip(totalmiles) {
-    var tripMiles = 200; //Can be changed
-    return (total * tripMiles);
+for (var i=1; i <= 20; i++)
+{
+    if (i % 15 == 0)
+        console.log("FizzBuzz");
+    else if (i % 3 == 0)
+        console.log("Fizz");
+    else if (i % 5 == 0)
+        console.log("Buzz");
+    else
+        console.log(i);
 }
 
-var MilesPreTrip = 50000;
-var triplMiles   = calculateTrip(MilesPreTrip);
-var autoMeter   = 'Before: ' + MilesPreTrip + ' Trip: ' + tripMiles +
-    ' Total: ' + (MilesPreTrip + tripMiles);
-console.log( autoMeter);
+option 2-
 
-
+for (var i=1; i<= 20; i++)
+{
+  if(i % 10 == 0)
+    console.log("FizzBuzz");
+  else if( i % 4 == 0)
+    console.log("Fizz");
+ else if( i % 2 == 0)
+    console.log("Buzz");
+  else
+  console.log(i);
+}
 
 
 2.
