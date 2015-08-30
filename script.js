@@ -1,3 +1,6 @@
+Queston: 0: 
+
+
 Question: 0: Total expenses
 Calculate the total expenses and return all expenses??
 Difficulty: 1....
@@ -7,7 +10,12 @@ options:
 2.expect(find('')).to.be.a('');
 3.expect(find('')).to.be.a('');
 4.expect(find('')).to.be.a('');
+Answer
 
+function greet(message) {
+	console.log(message);
+}
+function greeter(name, occupation)
 Ans:
 function calculateExpenses(totalExpenses) {
     var totalExpenses = 200; //Can be changed
@@ -20,7 +28,50 @@ var allExpenses   = 'Before: ' + ExpensesPreTrip + ' Total: ' + totalExpenses +
     ' Total: ' + (ExpensesPreTrip + totalExpenses);
 console.log( all expenses);
 
+Question: : Try for while loopes??
+Difficulty: 1....
 
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+Answer
+
+Answer
+var count = 10;
+ 
+for (var i = 0; i < count; i++) {
+    study();
+}
+ 
+function study() {
+    document.writeln("hello!");
+}
+
+
+Question: : Try while, do while loopes??
+var count = 0;
+        
+while (count < 10) {
+    document.writeln("looping away!");
+ 
+    count++;
+}
+Question
+Find the floor?
+
+Answer
+var floors = 9;
+ 
+for (var i = 1; i <= floors; i++) {
+    if (i == 3) {
+        // no floor here
+        continue;
+    }
+ 
+    document.writeln("At floor: " + i + "<br>");
+}
 
 Question: 1: 
 Find  FuzzBuzz??
