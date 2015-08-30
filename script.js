@@ -1,9 +1,6 @@
 Queston: 0: 
-
-
-Question: 0: Total expenses
-Calculate the total expenses and return all expenses??
-Difficulty: 1....
+Find the closure??
+Difficulty: 3....
 
 options:
 1.expect(find('')).to.be.a('');
@@ -15,7 +12,31 @@ Answer
 function greet(message) {
 	console.log(message);
 }
-function greeter(name, occupation)
+function greeter(name, age){
+  return name + "Hi there! She is " + age + "years old"
+}
+
+var message = greeter("Joni", 33);
+
+greet(message);
+
+function greeting(name, age){
+  var message = name + " Hi there! She is " + age "years old"
+  return function greet() {
+      console.log(message);
+  };
+}
+
+var JoniGreeter = greeter("Joni", 33);
+
+JoniGreeter();
+
+
+
+Question: 0: Total expenses
+Calculate the total expenses and return all expenses??
+Difficulty: 1....
+
 Ans:
 function calculateExpenses(totalExpenses) {
     var totalExpenses = 200; //Can be changed
