@@ -13,7 +13,7 @@ function greet(message) {
 	console.log(message);
 }
 function greeter(name, age){
-  return name + "Hi there! She is " + age + "years old"
+  return name + "Hi there! She is " + age + "years old";
 }
 
 var message = greeter("Joni", 33);
@@ -21,7 +21,7 @@ var message = greeter("Joni", 33);
 greet(message);
 
 function greeting(name, age){
-  var message = name + " Hi there! She is " + age "years old"
+  var message = name + " Hi there! She is " + age "years old";
   return function greet() {
       console.log(message);
   };
@@ -3000,7 +3000,43 @@ options:
 
 
 
-137.Question: ?
+136.Question: ?
+Write a function about animal. show its properties and use if else statements
+
+Difficulty: 3....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')
+  
+
+  137.Question: ?
+Write a function about animal. show its properties and use if else statements
+
+Difficulty: 3....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')
+  
+
+  138.Question: ?
+Write a function about animal. show its properties and use if else statements
+
+Difficulty: 3....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')
+  
+
+  139.Question: ?
 Write a function about animal. show its properties and use if else statements
 
 Difficulty: 3....
