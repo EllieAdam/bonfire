@@ -2976,8 +2976,7 @@ options:
 4.expect(find('')
 
 134.Question: ?
-Write a function about animal. show its properties and use if else statements
-
+Write a function about
 Difficulty: 3....
 
 options:
@@ -2987,7 +2986,8 @@ options:
 4.expect(find('')
 
 135.Question: ?
-Write a function about animal. show its properties and use if else statements
+Write a function that takes an array of numbers and returns the greatest difference 
+you can get by subtracting any two of those numbers.
 
 Difficulty: 3....
 
@@ -3000,8 +3000,25 @@ options:
 
 
 
+	Answer:
+
+def get_greatest_difference(nums):
+  greatest_difference = 0
+  for num1 in nums:
+    for num2 in nums:
+      difference = num1 - num2
+      if difference > greatest_difference:
+        greatest_difference = difference
+  return greatest_difference
+
+
+
+def get_greatest_difference(nums):
+  sorted_nums = sorted(nums)
+  return sorted_nums[-1] - sorted_nums[0]
+
 136.Question: ?
-Write a function about animal. show its properties and use if else statements
+Write a function about
 
 Difficulty: 3....
 
@@ -3013,7 +3030,7 @@ options:
   
 
   137.Question: ?
-Write a function about animal. show its properties and use if else statements
+Write a function about
 
 Difficulty: 3....
 
@@ -3025,7 +3042,7 @@ options:
   
 
   138.Question: ?
-Write a function about animal. show its properties and use if else statements
+Write a function 
 
 Difficulty: 3....
 
@@ -3037,7 +3054,7 @@ options:
   
 
   139.Question: ?
-Write a function about animal. show its properties and use if else statements
+Write a function about 
 
 Difficulty: 3....
 
