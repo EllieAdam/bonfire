@@ -3017,7 +3017,9 @@ def get_greatest_difference(nums):
   sorted_nums = sorted(nums)
   return sorted_nums[-1] - sorted_nums[0]
 
-136.Question: ?
+136.Question: 
+Write a function that takes an array of numbers and returns the greatest difference 
+you can get by subtracting any two of those numbers?
 Write a function about
 
 Difficulty: 3....
@@ -3027,9 +3029,36 @@ options:
 2.expect(find('')).to.be.a('');
 3.expect(find('')).to.be.a('');
 4.expect(find('')
-  
 
-  137.Question: ?
+  Answer
+  def get_greatest_difference(nums):
+  max = nums[0]
+  min = nums[0]
+  for num in nums:
+    if num > max:
+      max = num
+    elif num < min:
+      min = num
+  return max - min
+
+  137.Question: 
+  Find the maximum value in a list of numbers?
+
+   max = function(a) {
+    var m = a[0];
+    for (var i = 1; i < a.length; i++) {
+        writeln("m = "+m);
+	if (m < a[i]) m = a[i];
+    }
+    return m;
+}
+
+a = random_list(6,1,10);
+writeln(a);
+max(a);
+
+
+
 Write a function about
 
 Difficulty: 3....
@@ -3053,7 +3082,8 @@ options:
 4.expect(find('')
   
 
-  139.Question: ?
+
+  140.Question: ?
 Write a function about 
 
 Difficulty: 3....
