@@ -3041,7 +3041,7 @@ options:
       min = num
   return max - min
 
-  137.Question: 
+137.Question: 
   Find the maximum value in a list of numbers?
 
    max = function(a) {
@@ -3070,7 +3070,7 @@ options:
 4.expect(find('')
   
 
-  138.Question: ?
+138.Question: ?
 Write a function 
 
 Difficulty: 3....
@@ -3083,7 +3083,30 @@ options:
   
 
 
-  140.Question: ?
+139.Question: ?
+Write a function 
+
+Difficulty: 3....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')
+  
+140.Question: ?
+Write a function about 
+
+Difficulty: 3....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')
+  
+
+141.Question: ?
 Write a function about 
 
 Difficulty: 3....
