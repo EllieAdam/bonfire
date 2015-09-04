@@ -3117,3 +3117,34 @@ options:
 3.expect(find('')).to.be.a('');
 4.expect(find('')
   
+
+  142.Question: 
+  Convert Fahrenheit to Celsius:?
+Write a function about 
+
+Difficulty: 3....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')
+
+	Answer
+
+
+function toCelsius(fahrenheit) {
+    return (5/9) * (fahrenheit-32);
+}
+document.getElementById("demo").innerHTML = toCelsius(32);
+
+
+Or
+var text = "The temperature is " + toCelsius(32) + " Centigrade";
+Instead of:
+
+var x = toCelsius(32);
+var text = "The temperature is " + x + " Centigrade";
+
+
+  
