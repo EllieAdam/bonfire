@@ -3117,7 +3117,17 @@ options:
 3.expect(find('')).to.be.a('');
 4.expect(find('')
   
+var myPuppies = [
+  {name: 'Lemon',
+   age: 10},
+  {name: 'Damon',
+   age: 2}
+];
 
+for (var i = 0; i < myPuppies.length; i++) {
+  var mypuppy = myPuppies[i];
+  console.log(mypuppy.name + ' is ' + mypuppy.age + ' years old.');
+}
   142.Question: 
   Convert Fahrenheit to Celsius:?
 Write a function about 
