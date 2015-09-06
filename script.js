@@ -3156,5 +3156,16 @@ Instead of:
 var x = toCelsius(32);
 var text = "The temperature is " + x + " Centigrade";
 
+143.Question: 
+Convert Miles to Kilometers?
+Write a function about 
 
-  
+Difficulty: 3....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')
+
+	Answer
