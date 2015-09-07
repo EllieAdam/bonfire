@@ -3095,7 +3095,7 @@ options:
 4.expect(find('')
   
 140.Question: ?
-Write a function about 
+Write a function about change backgroundColor of p elements in the list.
 
 Difficulty: 3....
 
@@ -3104,7 +3104,18 @@ options:
 2.expect(find('')).to.be.a('');
 3.expect(find('')).to.be.a('');
 4.expect(find('')
-  
+ 
+ Answer
+function myFunction() {
+var	myGroceryList = document.getElementsByTagName("p");
+var i;
+for (i = 0; i <	myGroceryList.length; i++) {
+   	myGroceryList[i].style.backgroundColor = "pink";
+}
+}
+
+
+
 
 141.Question: ?
 Write a function about 
