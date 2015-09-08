@@ -3180,3 +3180,32 @@ options:
 4.expect(find('')
 
 	Answer
+
+
+144.Question: 
+
+
+Difficulty: 3....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')
+
+	Answer
+
+	var lowCounter = 0; 
+	var items = data.map(function(dataItem) {
+	 if (dataItem < 10) lowCounter++;
+	  return dataItem * 5;
+	   });
+
+
+	var items = data.map(function(dataItem) { 
+		return dataItem*5;
+		 });
+
+		  var lowCounter = data.reduce(function(total, current) {
+		   return total + (current < 10);
+		    }, 0);
