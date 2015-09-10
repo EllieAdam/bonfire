@@ -3209,3 +3209,58 @@ options:
 		  var lowCounter = data.reduce(function(total, current) {
 		   return total + (current < 10);
 		    }, 0);
+
+
+
+
+145.Question: 
+
+
+Difficulty: 3....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')
+
+  Answer
+var cars = ["BMW", "Audi", "Camery", "honda"];
+var i = 0;
+var text = "";
+for (;cars[i];) {
+    text += cars[i] + "<br>";
+    i++;
+}
+document.getElementById("demo").innerHTML = text;
+
+
+
+146.Question: 
+
+
+Difficulty: 3....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')
+
+  Answer
+
+
+
+
+147.Question: 
+
+
+Difficulty: 3....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')
+
+  Answer
