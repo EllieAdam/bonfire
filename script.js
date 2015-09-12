@@ -3286,3 +3286,19 @@ options:
 4.expect(find('')
 
   Answer
+
+  var Toaster = function(){
+  	var maxTemp = 500;
+  	var temp = 0;
+  	return {
+  		setTemp:function(newTemp) {
+  			if (newTemp > maxTemp) {
+  				console.log("that temo is too high!");
+  			}else{
+  				temp = newTemp;
+  			}
+  		}
+  	};
+  }
+  var myToaster = Toaster();
+  myToaster.setTemp(300);
