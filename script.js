@@ -3370,12 +3370,30 @@ function YarnMaker(name) {
 	};
 };
 
-var yarnNames = ['Sag', 'Popry', 'jasee'];
+149.Question: 
 
-var factory = []
-_.each(yarnNames, function (name) {
-	factory.push(YarnMaker(name));
-});
-var factory = _.map(yarnNames, function(name){
-	return AnimalMaker(name);
-})
+
+Difficulty: 3....
+
+
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')
+
+Answer
+
+function AnimalMaker(name) {
+	return {
+		speak: function () {
+			console.log("my name is ", name);
+		}
+	};
+};
+
+var animalNames = ['Sag', 'Popry', 'jasee'];
+
+var farm = _.map(animalNames, AnimalMaker);
+
