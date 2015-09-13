@@ -3302,3 +3302,80 @@ options:
   }
   var myToaster = Toaster();
   myToaster.setTemp(300);
+
+148.Question: 
+
+
+Difficulty: 3....
+
+var basket = ['apple', 'banana', 'mango'];
+var logger = function(val){
+	console.log(val);
+};
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')
+
+Answer
+
+_.each(basket, logger);
+
+
+149.Question: 
+
+
+Difficulty: 3....
+
+var bucket = ['movie', 'trip', 'boat'];
+var excitedArr = function(val){
+	return val + '!!!';
+};
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')
+
+Answer
+
+_.map(pocketmon, excitedArr);
+excitedArr(bucket[0], 0, bucket);
+excitedArr(bucket[1], 1, bucket);
+excitedArr(bucket[2], 2, bucket);
+
+149.Question: 
+
+
+Difficulty: 3....
+
+
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')
+
+Answer
+
+function YarnMaker(name) {
+	return {
+		speak: function () {
+			console.log("my yarn is ", name);
+		}
+	};
+};
+
+var yarnNames = ['Sag', 'Popry', 'jasee'];
+
+var factory = []
+_.each(yarnNames, function (name) {
+	factory.push(YarnMaker(name));
+});
+var factory = _.map(yarnNames, function(name){
+	return AnimalMaker(name);
+})
