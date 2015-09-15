@@ -3443,3 +3443,37 @@ options:
 4.expect(find('')).to.be.a('');
 Answer
 
+
+Queston: 154: 
+    if (i < 10) {
+        i = "0" + i;
+    }
+    return i;
+}
+
+Difficulty: 3....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+Answer
+
+function addZero(i) {
+    if (i < 10) {
+        i = "0" + i;
+    }
+    return i;
+}
+
+function myFunction() {
+    var d = new Date();
+    var x = document.getElementById("demo");
+    var h = addZero(d.getUTCHours());
+    var m = addZero(d.getUTCMinutes());
+    var s = addZero(d.getUTCSeconds());
+    x.innerHTML = h + ":" + m + ":" + s;
+}
+
+05:56:58
