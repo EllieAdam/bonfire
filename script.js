@@ -3480,7 +3480,7 @@ function myFunction() {
 
 
 Queston: 155: 
-Find the .each??
+Find the board??
 Difficulty: 3....
 
 options:
@@ -3489,6 +3489,11 @@ options:
 3.expect(find('')).to.be.a('');
 4.expect(find('')).to.be.a('');
 Answer
+
+function myFunction() {
+    var board = 4;
+    document.getElementById("demo").innerHTML = board * board;
+} 
 
 
 Queston: 156: 
@@ -3502,6 +3507,17 @@ options:
 4.expect(find('')).to.be.a('');
 Answer
 
+function myFunction() {
+    document.getElementById("demo").innerHTML = 
+    Math.E + "<br>" +
+    Math.PI + "<br>" +
+    Math.SQRT2 + "<br>" +
+    Math.SQRT1_2 + "<br>" +
+    Math.LN2 + "<br>" +
+    Math.LN10 + "<br>" +
+    Math.LOG2E + "<br>" +
+    Math.LOG10E + "<br>";
+}
 
 
 Queston: 157: 
