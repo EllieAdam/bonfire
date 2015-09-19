@@ -3531,6 +3531,22 @@ options:
 4.expect(find('')).to.be.a('');
 Answer
 
+function printFullName() {
+  var firstName = "Abbee";
+  var lastName = "Charlee";
+  console.log(firstName + " " + lastName);
+}
+
+var contact = {
+  fullName: function() {
+    var firstName =  "Abbee";
+    var lastName = "Charlee";
+  console.log(firstName + " " + lastName);
+  }
+  
+}
+
+
 Queston: 158: 
 Find the closure??
 Difficulty: 3....
