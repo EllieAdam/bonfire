@@ -3569,3 +3569,38 @@ options:
 3.expect(find('')).to.be.a('');
 4.expect(find('')).to.be.a('');
 Answer
+
+Queston: 160: 
+Find the closure??
+Difficulty: 3....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+Answer
+
+
+Queston: 161: 
+Find the closure??
+Difficulty: 3....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+Answer
+
+
+Queston: 162: 
+Find the closure??
+Difficulty: 3....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+Answer
