@@ -3582,6 +3582,8 @@ options:
 Answer
 
 
+
+
 Queston: 161: 
 Find the closure??
 Difficulty: 3....
@@ -3595,6 +3597,30 @@ Answer
 
 
 Queston: 162: 
+Find the closure??
+Difficulty: 3....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+Answer
+
+
+Queston: 163: 
+Find the closure??
+Difficulty: 3....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+Answer
+
+
+Queston: 164: 
 Find the closure??
 Difficulty: 3....
 
