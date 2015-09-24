@@ -3558,6 +3558,19 @@ options:
 4.expect(find('')).to.be.a('');
 Answer
 
+$("button").click(function(){
+    $("div").animate({
+        left: '250px',
+        opacity: '0.5',
+        height: '150px',
+        width: '150px'
+    });
+}); 
+
+
+
+
+
 
 Queston: 159: 
 Find the closure??
