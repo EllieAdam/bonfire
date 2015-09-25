@@ -3583,6 +3583,15 @@ options:
 4.expect(find('')).to.be.a('');
 Answer
 
+myFunction();
+document.getElementById("demo").innerHTML =
+"I can display " + typeof carName;
+
+function myFunction() {
+    var carName = "toyotaCamery";
+}
+
+
 Queston: 160: 
 Find the closure??
 Difficulty: 3....
