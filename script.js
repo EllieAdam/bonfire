@@ -3722,3 +3722,31 @@ options:
 3.expect(find('')).to.be.a('');
 4.expect(find('')).to.be.a('');
 Answer
+
+Queston: 171: 
+Find the closure??
+Difficulty: 3....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+Answer
+
+
+var x = 10;
+var y = "10";
+document.getElementById("demo").innerHTML = Boolean(x == y);
+
+
+Queston: 172: 
+Find the closure??
+Difficulty: 3....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+Answer
