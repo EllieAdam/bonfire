@@ -3784,7 +3784,33 @@ options:
 4.expect(find('')).to.be.a('');
 Answer
 
+
+
 Queston: 176: 
+Find the closure??
+Difficulty: 3....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+Answer
+
+Queston: 177: 
+Find the closure??
+Difficulty: 3....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+Answer
+
+
+
+Queston: 178: 
 Find the closure??
 Difficulty: 3....
 
