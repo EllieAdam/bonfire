@@ -3855,7 +3855,7 @@ options:
 4.expect(find('')).to.be.a('');
 Answer
 
-Queston: 180: 
+Queston: 180:  Find the fruit
 Find the closure??
 Difficulty: 3....
 
@@ -3863,7 +3863,11 @@ options:
 1.expect(find('')).to.be.a('');
 2.expect(find('')).to.be.a('');
 3.expect(find('')).to.be.a('');
-4.expec
+4.expect...
+Answer
+
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo").innerHTML = fruits.valueOf();
 
 Queston: 181: 
 Find the closure??
