@@ -3909,3 +3909,29 @@ document.getElementById("demo").innerHTML =
 obj.name + "<br>" +
 obj.street + "<br>" +
 obj.phone;
+
+
+Queston: 183: 
+Find the closure??
+Difficulty: 3....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect..
+
+Answer:
+
+
+Queston: 184: 
+Find the closure??
+Difficulty: 3....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect..
+
+Answer:
