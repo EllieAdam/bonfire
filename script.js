@@ -3936,6 +3936,8 @@ options:
 
 Answer:
 
+
+
 Queston: 185: 
 Find the closure??
 Difficulty: 3....
@@ -3948,6 +3950,28 @@ options:
 Answer
 
 Queston: 186:  Find the fruit
+Find the closure??
+Difficulty: 3....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect...
+Answer
+
+Queston: 187: 
+Find the closure??
+Difficulty: 3....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+Answer
+
+Queston: 188:  Find the fruit
 Find the closure??
 Difficulty: 3....
 
