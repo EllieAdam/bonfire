@@ -4003,4 +4003,80 @@ options:
 2.expect(find('')).to.be.a('');
 3.expect(find('')).to.be.a('');
 4.expect...
+
+Answer
+vvar deadline = '31/12/2015';
+or
+var deadline = 'December 31 2015';
+
+var deadline = 'December 31 2015 23:59:59 GMT+02:00';
+
+
+function getTimeRemaining(endtime){
+  var t = Date.parse(endtime) - Date.parse(new Date());
+  var seconds = Math.floor( (t/1000) % 60 );
+  var minutes = Math.floor( (t/1000/60) % 60 );
+  var hours = Math.floor( (t/(1000*60*60)) % 24 );
+  var days = Math.floor( t/(1000*60*60*24) );
+  return {
+    'total': t,
+    'days': days,
+    'hours': hours,
+    'minutes': minutes,
+    'seconds': seconds
+  };
+}
+
+var t = Date.parse(endtime) - Date.parse(new Date());
+
+
+convert time
+var seconds = Math.floor( (t/1000) % 60 );
+
+
+return {
+  'total': t,
+  'days': days,
+  'hours': hours,
+  'minutes': minutes,
+  'seconds': seconds
+};
+
+getTimeRemaining(deadline).minutes
+
+
+Queston: 191:  Find the fruit
+Find the closure??
+Difficulty: 3....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect...
+
+Answer
+
+Queston: 192:  Find the fruit
+Find the closure??
+Difficulty: 3....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect...
+
+Answer
+
+Queston: 193:  Find the fruit
+Find the closure??
+Difficulty: 3....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect...
+
 Answer
