@@ -3823,7 +3823,7 @@ Answer
 
 
 Queston: 178: 
-Find the closure??
+Find the ??
 Difficulty: 3....
 
 options:
@@ -3834,7 +3834,7 @@ options:
 Answer
 
 Queston: 178: 
-Find the closure??
+Find the ??
 Difficulty: 3....
 
 options:
@@ -3856,7 +3856,7 @@ options:
 Answer
 
 Queston: 180:  Find the fruit
-Find the closure??
+Find the ??
 Difficulty: 3....
 
 options:
@@ -3912,7 +3912,7 @@ obj.phone;
 
 
 Queston: 183: 
-Find the closure??
+Find the ??
 Difficulty: 3....
 
 options:
@@ -3925,7 +3925,7 @@ Answer:
 
 
 Queston: 184: 
-Find the closure??
+Find the ??
 Difficulty: 3....
 
 options:
@@ -3939,7 +3939,7 @@ Answer:
 
 
 Queston: 185: 
-Find the closure??
+Find the ??
 Difficulty: 3....
 
 options:
@@ -3949,8 +3949,8 @@ options:
 4.expect(find('')).to.be.a('');
 Answer
 
-Queston: 186:  Find the fruit
-Find the closure??
+Queston: 186: 
+Find the ??
 Difficulty: 3....
 
 options:
@@ -3962,7 +3962,7 @@ Answer
 
 
 Queston: 187: 
-Find the closure??
+Find the ??
 Difficulty: 3....
 
 options:
@@ -3984,7 +3984,7 @@ options:
 Answer
 
 Queston: 189: 
-Find the closure??
+Find the ?
 Difficulty: 3....
 
 options:
@@ -4045,8 +4045,8 @@ return {
 getTimeRemaining(deadline).minutes
 
 
-Queston: 191:  Find the fruit
-Find the closure??
+Queston: 191:  
+Find the ??
 Difficulty: 3....
 
 options:
@@ -4057,8 +4057,8 @@ options:
 
 Answer
 
-Queston: 192:  Find the fruit
-Find the closure??
+Queston: 192: 
+Find the ??
 Difficulty: 3....
 
 options:
@@ -4070,8 +4070,9 @@ options:
 Answer
 
 
-Queston: 193:  Find the fruit
-Find the closure??
+
+Queston: 194: 
+Find the ??
 Difficulty: 3....
 
 options:
