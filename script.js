@@ -4158,7 +4158,7 @@ options:
 Answer
 
 
-Queston: 201: 
+Queston: 201: month in year
 Find the ??
 Difficulty: 3....
 
@@ -4170,32 +4170,14 @@ options:
 
 Answer
 
-
-Queston: 202: 
-Find the ??
-Difficulty: 3....
-
-options:
-1.expect(find('')).to.be.a('');
-2.expect(find('')).to.be.a('');
-3.expect(find('')).to.be.a('');
-4.expect...
-
-Answer
-
-
-Queston: 203: 
-Find the ??
-Difficulty: 3....
-
-options:
-1.expect(find('')).to.be.a('');
-2.expect(find('')).to.be.a('');
-3.expect(find('')).to.be.a('');
-4.expect...
-
-
-
-
-
+switch(month) {
+    case Jan:
+        code block
+        break;
+    case Feb:
+        code block
+        break;
+    default:
+        default christmas
+}
 
