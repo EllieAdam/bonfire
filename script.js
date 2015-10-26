@@ -1,3 +1,4 @@
+Q-1.
 Find the value of a??
 Difficulty: 1....
 
@@ -19,7 +20,8 @@ var a = 'it is raining!';
 console.log(a);
 
 
-Find the closure??
+Q-2.
+Find the??
 Difficulty: 3....
 
 options:
@@ -28,6 +30,26 @@ options:
 3.expect(find('')).to.be.a('');
 4.expect(find('')).to.be.a('');
 Answer
+
+function b() {
+  var myVar;
+  console.log(myVar);
+}
+
+function a() {
+  var myVar = 2;
+  console.log(myVar);
+  b();
+}
+
+var myVar = 1;
+console.log(myVar);
+a();
+console.log(myVar);
+
+
+
+
 Q.Find the closure in the ......??
 Difficulty: 3....
 
