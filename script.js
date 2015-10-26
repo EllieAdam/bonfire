@@ -1,5 +1,5 @@
-Find the closure??
-Difficulty: 3....
+Find the value of a??
+Difficulty: 1....
 
 options:
 1.expect(find('')).to.be.a('');
@@ -8,7 +8,15 @@ options:
 4.expect(find('')).to.be.a('');
 Answer
 
+function h(){
+	console.log('h');
+}
+b();
+console.log(a);
 
+var a = 'it is raining!';
+
+console.log(a);
 
 
 Find the closure??
