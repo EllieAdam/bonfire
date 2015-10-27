@@ -49,8 +49,22 @@ console.log(myVar);
 
 
 
+Q-3.
+Find the value of a??
+Difficulty: 1....
 
-Q.Find the closure in the ......??
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+Answer
+
+
+
+
+Q.4
+Find the closure in the ......??
 Difficulty: 3....
 
 
