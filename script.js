@@ -4276,3 +4276,40 @@ options:
 4.expect...
 
 Answer
+
+Queston: 202: hours in a day
+Find the ??
+Difficulty: 1....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect...
+
+Answer
+
+Queston: 203: minutes in a hour
+Find the ??
+Difficulty: 1....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect...
+
+Answer
+
+
+Queston: 204: seconds in a minute
+Find the ??
+Difficulty: 1....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect...
+
+Answer
