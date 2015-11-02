@@ -9,6 +9,8 @@ options:
 4.expect(find('')).to.be.a('');
 Answer
 
+
+
 Q-1.
 Find the value of a??
 Difficulty: 1....
@@ -4150,7 +4152,7 @@ Answer
 
 
 
-Queston: 194: 
+Queston: 194:  Clousers
 Find the ??
 Difficulty: 3....
 
@@ -4162,6 +4164,23 @@ options:
 
 Answer
 
+
+function makeFunction() {
+	var arr = [];
+
+	for (var i = 0; i < 3; i++) {
+		arr.push(function() {
+			console.log(i);
+		});
+	}
+	return arr;
+}
+
+var fs = buildFunction();
+
+fs[0]();
+fs[1]();
+fs[2]();
 
 Queston: 195: 
 Find the ??
