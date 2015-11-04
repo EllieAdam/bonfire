@@ -1,5 +1,5 @@
 Q-1.
-Find the value of a??
+Callback??
 Difficulty: 1....
 
 options:
@@ -9,7 +9,20 @@ options:
 4.expect(find('')).to.be.a('');
 Answer
 
+var person = {
+  firstName: 'Abe',
+  lastName: 'Moe',
+  getFullName: function(){
+var fullName = this.firstname + ' '+this.lastName;
+return fullname;
 
+  }
+}
+var logName = function(lang1, lang2) {
+  console.log('Logged: '+ this.getFullName());
+
+}
+logName();
 
 Q-1.
 Find the value of a??
