@@ -86,7 +86,11 @@ options:
 4.expect(find('')).to.be.a('');
 Answer
 
+var arr6 = _.map(arr1, function(item) {
+	return item * 3 });
+console.log(arr6);
 
+var arr7 = _.
 
 
 Q.4
