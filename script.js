@@ -2237,6 +2237,23 @@ options:
 3.expect(find('')).to.be.a('');
 4.expect(find('')).to.be.a('');
 
+Answer
+
+
+var person = {
+	firstName: 'Default',
+	lastName: 'Default',
+	getFullName: function(){
+		return this.firstName + ' ' + this.lastName;
+	}
+}
+
+var jeni = {
+	firstname: 'jeni',
+	lastName: 'Alex'
+}
+// don't do this ever only using for reference
+jeni._proto_ = person;
 
 72.Question: ?
 Difficulty: 1....
