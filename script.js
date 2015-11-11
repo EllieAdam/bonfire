@@ -13,10 +13,28 @@ document.getElementById("circle").onclick=function({
 })
 
 
+Q-1 array in loops??
+Difficulty: 1....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+Answer
 
 
+var arrayString="";
 
+ var myArray=["pizza", "chocolate", "crisps"];
 
+ for (var i=0; i<myArray.length; i++) {
+
+arrayString=arrayString+myArray[i]+" ";
+
+ }
+    
+document.getElementById("arrayString").innerHTML=arrayString;
 
 Q-1.
 Callback??
@@ -4472,8 +4490,8 @@ options:
 4.expect(find('')).to.be.a('');
 Answer
 
-3.
-Question:
+
+Question: 210.
 Find the --- and return its value
 Difficulty: 1....
 options:
@@ -4484,3 +4502,38 @@ options:
 
 
 Ans:
+
+
+Q-211
+unknown??
+Difficulty: 1....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+Answer
+
+
+function Person(firstname, lastname) {
+	console.log(this);
+	this.firstname = firstname;
+	this.lastname = lastname;
+	console.log('This function is invoked');
+
+}
+Person.prototype.getFullName = function() {
+	return this.firstName + ' ' + this.lastName;
+}
+var jon = new Person('jon', 'dave');
+console.log(jon);
+
+var ava = new Person('ava', 'more');
+console.log(ava);
+
+Person.prototype.getFormalFullName = function () {
+	return this.lastname + ' ' + this.firsname;
+}
+
+
