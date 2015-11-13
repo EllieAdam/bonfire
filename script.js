@@ -4552,3 +4552,26 @@ Answer
 var q = $("ul.people li");
 console.log(q);
 
+
+
+Q-1 ??
+Difficulty: 1....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+Answer
+
+var g = G$('jan', 'olive');
+
+g.greet().setLang('es').greet(true).log();
+
+$('#login').click(function() {
+	var loginGrtr = G$('jan', 'olive');
+
+	$('#logindiv').hide();
+
+	loginGrtr.setLang($('#lang').val()).HTMLGreeting('#greeting', true).log();
+})
