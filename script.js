@@ -4539,7 +4539,7 @@ Person.prototype.getFormalFullName = function () {
 }
 
 
-Q-1 find the list of people??
+Q-222 find the list of people??
 Difficulty: 1....
 
 options:
@@ -4554,7 +4554,7 @@ console.log(q);
 
 
 
-Q-1 ??
+Q-223??
 Difficulty: 1....
 
 options:
@@ -4575,3 +4575,15 @@ $('#login').click(function() {
 
 	loginGrtr.setLang($('#lang').val()).HTMLGreeting('#greeting', true).log();
 })
+
+Q-224 ??
+Difficulty: 1....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+Answer
+
+
