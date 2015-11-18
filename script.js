@@ -4612,7 +4612,7 @@ options:
 4.expect(find('')).to.be.a('');
 Answer
 
-Q-1 a map ??
+Q-227 a map ??
 Difficulty: 1....
 
 options:
@@ -4622,7 +4622,7 @@ options:
 4.expect(find('')).to.be.a('');
 Answer
 
-Q-1 Use filters to run your project.
+Q-228 Use filters to run your project.
 
 options:
 1.expect(find('')).to.be.a('');
@@ -4631,4 +4631,22 @@ options:
 4.expect(find('')).to.be.a('');
 Answer
 
+Q-229 ??
+Difficulty: 1....
 
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+Answer
+
+Q-230 ??
+Difficulty: 1....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+Answer
