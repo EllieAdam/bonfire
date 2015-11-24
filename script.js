@@ -4744,3 +4744,23 @@ options:
 3.expect(find('')).to.be.a('');
 4.expect(find('')).to.be.a('');
 Answer
+
+// A car "class"
+function Car( model ) {
+ 
+  this.model = model;
+  this.color = "silver";
+  this.year = "2016";
+ 
+  this.getInfo = function () {
+    return this.model + " " + this.year;
+  };
+ 
+}
+
+
+var myCar = new Car("ford");
+ 
+myCar.year = "2016";
+ 
+console.log( myCar.getInfo() );
