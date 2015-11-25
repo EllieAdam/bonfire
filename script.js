@@ -4764,3 +4764,13 @@ var myCar = new Car("ford");
 myCar.year = "2016";
  
 console.log( myCar.getInfo() );
+
+Q-240 ??
+Difficulty: 1....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+Answer
