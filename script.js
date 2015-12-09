@@ -4897,4 +4897,30 @@ options:
 
 
 
+Q- 250 .Question: ?
+Difficulty: 1....
 
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+
+var arrayString;
+arrayString = arrayString + anyArray [i] + "";
+document.getElementById(arrayString).innerHTML = anyArray;
+
+var i=0;
+while(i<myArray){
+	anyString = anyString + myArray[i] + "";
+	i++;
+	document.getElementById("guess").onclinck=function(){
+		var x=Math.random();
+		x=6*x;
+		x=Math.floor(x);
+		alert(x);
+		if(documentgetElementById("anyNmumber").value==x){
+			
+		}
+	}
+}
