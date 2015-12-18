@@ -39,14 +39,6 @@ arrayString=arrayString+myArray[i]+" ";
 document.getElementById("arrayString").innerHTML=arrayString;
 
 
-Q-1
-options:
-1.expect(find('')).to.be.a('');
-2.expect(find('')).to.be.a('');
-3.expect(find('')).to.be.a('');
-4.expect(find('')).to.be.a('');
-Answer
-
 
 Q-1.
 Callback??
@@ -334,8 +326,7 @@ whatIsAwesome();
 console.log (awesomeFCC + ' is pretty awesome.'); //Won't work
 
 
-5.
-Question: Driving age
+5.Question: Driving age
 Calculate the driving age with help of if/else statements.
 
 
@@ -357,8 +348,7 @@ if (age <= 70) {
 }
 
 
-6
-Question: Driving age
+6.Question: Driving age
 Calculate the driving age with help of if/else statements.
 
 
@@ -384,8 +374,7 @@ if (age >= 35) {
 }
 
 
-7
-Question: Number of pets
+7.Question: Number of pets
 
 Calculate the driving age with help of if/else statements.
 Difficulty: 1....
