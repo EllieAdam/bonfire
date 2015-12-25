@@ -4870,23 +4870,13 @@ options:
 4.expect(find('')).to.be.a('');
 
 Q- 249 .Question: ?
-Difficulty: 1....
+Difficulty: 1......
 
 options:
 1.expect(find('')).to.be.a('');
 2.expect(find('')).to.be.a('');
 3.expect(find('')).to.be.a('');
 4.expect(find('')).to.be.a('');
-
-Q- 250 .Question: ?
-Difficulty: 1....
-
-options:
-1.expect(find('')).to.be.a('');
-2.expect(find('')).to.be.a('');
-3.expect(find('')).to.be.a('');
-4.expect(find('')).to.be.a('');
-
 
 
 Q- 250 .Question: ?
@@ -4916,13 +4906,4 @@ while(i<myArray){
 		}
 	}
 }
-
-Q- 250 .Question: ?
-Difficulty: 1....
-
-options:
-1.expect(find('')).to.be.a('');
-2.expect(find('')).to.be.a('');
-3.expect(find('')).to.be.a('');
-4.expect(find('')).to.be.a('');
 
