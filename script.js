@@ -59,6 +59,44 @@ Q. Promises in angularJS
         };
 
 
+ app.factory('SonService', function ($http, $q) {
+        return {
+            getWeather: function() {
+                // the $http API is based on the deferred/promise APIs exposed by the $q service
+                // so it returns a promise for us by default
+                return $http.get('http://fishing-weather-api.com/sunday/afternoon')
+                    .then(function(response) {
+                        if (typeof response.data === 'object') {
+                            return response.data;
+                        } else {
+                            // invalid response
+                            return $q.reject(response.data);
+                        }
+
+                    }, function(response) {
+                        // something went wrong
+                        return $q.reject(response.data);
+                    });
+            }
+        };
+    });
+    
+
+
+
+
+
+Q-1 array in loops??
+Difficulty: 1...
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+Answer
+
+
 
 
 Q-1.
