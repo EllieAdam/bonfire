@@ -4964,3 +4964,36 @@ while(i<myArray){
 	}
 }
 
+
+Q- 251 .Question: odoListApp?
+Difficulty: 2....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+
+
+angular.module("todoListApp", [])
+
+.controller('mainCtrl', function($scope) {
+  $scope.helloWorld = function() {
+    console.log("hello there! this helloWorld controller");
+  };
+})
+
+
+
+.controller('coolCtrl', function($scope) {
+  $scope.whoAmI = function() {
+    console.log("hello there! this coolCtrl controller");
+  };
+  $scope.helloWorld = function() {
+    console.log("this is not the mainCtrl");
+  };
+})
+
+.controller('iamSibling', function($scope) {
+  $scope.foobar = 1234;
+});
