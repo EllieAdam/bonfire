@@ -27,8 +27,6 @@ options:
 Answer
 
 
-
-
 Q-1 array in loops??
 Difficulty: 1...
 
