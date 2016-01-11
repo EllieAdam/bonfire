@@ -1,6 +1,4 @@
-
-
-Q-1 creat a circle. it should disappear on click disappear??
+Q-1 ??
 Difficulty: 1....
 
 options:
@@ -9,6 +7,7 @@ options:
 3.expect(find('')).to.be.a('');
 4.expect(find('')).to.be.a('');
 Answer
+
 
 
 Q-1 creat a circle. it should disappear on click disappear??
@@ -24,18 +23,6 @@ Answer
 document.getElementById("circle").onclick=function({
   document.getElementById("circle").style.display="none";
 })
-
-
-
-Q-1 array in loops??
-Difficulty: 1...
-
-options:
-1.expect(find('')).to.be.a('');
-2.expect(find('')).to.be.a('');
-3.expect(find('')).to.be.a('');
-4.expect(find('')).to.be.a('');
-Answer
 
 
 
@@ -104,21 +91,6 @@ Q. Promises in angularJS
         };
     });
     
-
-
-
-
-
-Q-1 array in loops??
-Difficulty: 1...
-
-options:
-1.expect(find('')).to.be.a('');
-2.expect(find('')).to.be.a('');
-3.expect(find('')).to.be.a('');
-4.expect(find('')).to.be.a('');
-Answer
-
 
 
 
@@ -5020,3 +4992,22 @@ angular.module("todoListApp", [])
 .controller('iamSibling', function($scope) {
   $scope.foobar = 1234;
 });
+
+
+Q- 251 .
+while loop in python?
+Difficulty: 2....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.e
+
+Ans:
+num_cookies = 34
+while num_cookies > 0:
+	num_cookies = num_cookies - 1
+	print("I eat it")
+print("I ate all")
+
