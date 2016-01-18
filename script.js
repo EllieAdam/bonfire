@@ -11,7 +11,7 @@ document.getElementById("circle").onclick=function({
   document.getElementById("circle").style.display="none";
 })
 
-Q-1 creat a rectangle. ??
+Q-1 creat a shout alert in UpperCase??
 Difficulty: 1....
 
 options:
@@ -20,6 +20,10 @@ options:
 3.expect(find('')).to.be.a('');
 4.expect(find('')).to.be.a('');
 Answer.
+var stringToShout = prompt("What a day!");
+var shout = stringToShout.toUpperCase();
+shout += "!!!";
+alert(shout);
 
 
 
