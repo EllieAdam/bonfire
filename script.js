@@ -48,6 +48,7 @@ Answer.
 
 
 
+
 Q-1 creat a shout alert in UpperCase??
 Difficulty: 1....
 
@@ -57,8 +58,18 @@ options:
 3.expect(find('')).to.be.a('');
 4.expect(find('')).to.be.a('');
 Answer.
-var stringToShout = prompt("What a day!");
-var shout = stringToShout.toUpperCase();
+
+Q-1 creat a shout alert in lowerCase??
+Difficulty: 1....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+Answer.
+var stringToShout = prompt("What a date!");
+var shout = stringToShout.tolowerCase();
 shout += "!!!";
 alert(shout);
 
