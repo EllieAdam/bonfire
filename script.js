@@ -37,6 +37,21 @@ document.getElementById("circle").onclick=function({
 .
 
 
+Q-1 creat a square. it should disappear on click appear again??
+Difficulty: 1....
+
+options:
+1.expect(find('')).to.be.a('');
+2.expect(find('')).to.be.a('');
+3.expect(find('')).to.be.a('');
+4.expect(find('')).to.be.a('');
+Answer.
+document.getElementById("square").onclick=function({
+  document.getElementById("square").style.display="none";
+  
+})
+.
+
 Q-1 creat a shout alert in UpperCase??
 Difficulty: 1....
 options:
