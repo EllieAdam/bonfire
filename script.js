@@ -19,7 +19,7 @@ var cal = result + 1000;
 
 alert(cal);
 
-
+A
 
 
 Q-1 creat a circle. it should disappear on click disappear??
