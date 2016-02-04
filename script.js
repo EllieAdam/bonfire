@@ -34,7 +34,6 @@ Answer.
 document.getElementById("circle").onclick=function({
   document.getElementById("circle").style.display="none";
 })
-.
 
 
 Q-1 creat a square. it should disappear on click appear again??
@@ -74,6 +73,7 @@ options:
 4.expect(find('')).to.be.a('');
 Answer.
 
+Q-1
 Q-1 creat a shout alert in lowerCase??
 Difficulty: 1....
 
