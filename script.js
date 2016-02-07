@@ -63,17 +63,26 @@ Answer.
 
 
 
-Q-1 creat a shout alert in UpperCase??
+Q-1 creat a website in  python??
 Difficulty: 1....
 
 options:
-1.expect(find('')).to.be.a('');
-2.expect(find('')).to.be.a('');
-3.expect(find('')).to.be.a('');
-4.expect(find('')).to.be.a('');
+
 Answer.
 
-Q-1
+from flask import Flask
+ 
+app = Flask(__name__)      
+ 
+@app.route('/')
+def home():
+  return "Website content goes here."
+ 
+if __name__ == '__main__':
+  app.run(debug=True)
+  
+  
+
 Q-1 creat a shout alert in lowerCase??
 Difficulty: 1....
 
