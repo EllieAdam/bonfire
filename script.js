@@ -19,20 +19,6 @@ var cal = result + 1000;
 
 alert(cal);
 
-Q-1 calculate the Numbers??
-Difficulty: 1.......
-
-options:
-1.expect(find('')).to.be.a('');
-2.expect(find('')).to.be.a('');
-3.expect(find('')).to.be.a('');
-4.expect(find('')).to.be.a('');
-Answer.
-
-
-A
-
-
 Q-1 creat a circle. it should disappear on click disappear??
 Difficulty: 1....
 
