@@ -19,6 +19,36 @@ var cal = result + 1000;
 
 alert(cal);
 
+
+Q-2 Create a reuseable fun.
+Ans
+var Amma = document.getElementByID("Amma");
+var Lia = document.getElementByID("Lia");
+var Sam = document.getElementByID("Sam");
+
+amma.addEventListener("click", picLink);
+lia.addEventListener("click", picLink);
+sam.addEventListener("click", picLink);
+
+functionn picLink() {
+	var allImages = document.querySlectorAll("img");
+	
+	for  (var i = 0; i < allImages.length;  i++) {
+		allImages[i].className = "hide";
+	}
+	var picId = this.attributes["data-img"].value;
+	var pic = document.getElementById(picId);
+	if (pic.className === "hide") {
+		pic.className = "";
+	}else{
+		pic.className = "hide";
+
+	}
+}
+
+
+
+
 Q-1 creat a circle. it should disappear on click disappear??
 Difficulty: 1....
 
