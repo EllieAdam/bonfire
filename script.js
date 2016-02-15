@@ -47,7 +47,7 @@ functionn picLink() {
 }
 
 
-Q-1 
+Q-1 Draw shapes....
 
 Q-1 creat a circle. it should disappear on click disappear??
 Difficulty: 1....
