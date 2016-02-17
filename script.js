@@ -47,7 +47,17 @@ functionn picLink() {
 }
 
 
-Q-1 Draw shapes....
+Q-1 Call back function
+answer
+
+downloadPhoto('http://google.com/cat.gif', handlePhoto)
+
+function handlePhoto (error, photo) {
+  if (error) console.error('Download error!', error)
+  else console.log('Download finished', photo)
+}
+
+console.log('Download started')
 
 Q-1 creat a circle. it should disappear on click disappear??
 Difficulty: 1....
