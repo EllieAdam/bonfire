@@ -1,5 +1,5 @@
 Q-1 calculate the Numbers??
-Difficulty: 1.......
+Difficulty: 1.........
 
 options:
 1.expect(find('')).to.be.a('');
@@ -20,7 +20,7 @@ var cal = result + 1000;
 alert(cal);
 
 
-Q-2 Create a reuseable fun.
+Q- Create a reuseable fun.
 Ans
 var Amma = document.getElementByID("Amma");
 var Lia = document.getElementByID("Lia");
@@ -58,6 +58,11 @@ function handlePhoto (error, photo) {
 }
 
 console.log('Download started')
+
+Q-1 creat a shape??
+Difficulty: 1....
+
+
 
 Q-1 creat a circle. it should disappear on click disappear??
 Difficulty: 1....
