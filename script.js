@@ -27,10 +27,22 @@ var checklist = document.getElementById("checklist");
 var items = checklist.querySelectorAll("li");
 
 for (var i = 0; i < items.length; i++){
-	items[i].addEventLisner("click", editionItem);
+	items[i].addEventLisner("click", editItem);
+	input[i].addEventLisner("blur", updateItem);
+	items[i].addEventLisner("keypress", itemKeypress);
 }
 function editItem(){
 	console.log(this);
+}
+function updateItem() {
+	this.previousElementSbiling.innerHTML = this.value;
+	this.parentNode.className ="";
+}
+function itemKeypress(event) {
+	if (event.which === 13) {
+	   updateItem.call(this);
+	}
+	
 }
 
 Q- Create a reuseable fun.
