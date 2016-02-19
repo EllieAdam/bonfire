@@ -45,6 +45,10 @@ function itemKeypress(event) {
 	
 }
 
+
+Q- Create a reuseable fun.
+Ans
+
 Q- Create a reuseable fun.
 Ans
 var Amma = document.getElementByID("Amma");
