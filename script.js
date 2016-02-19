@@ -22,6 +22,19 @@ alert(cal);
 
 Q- Create a reuseable fun.
 Ans
+var checklist = document.getElementById("checklist");
+
+var items = checklist.querySelectorAll("li");
+
+for (var i = 0; i < items.length; i++){
+	items[i].addEventLisner("click", editionItem);
+}
+function editItem(){
+	console.log(this);
+}
+
+Q- Create a reuseable fun.
+Ans
 var Amma = document.getElementByID("Amma");
 var Lia = document.getElementByID("Lia");
 var Sam = document.getElementByID("Sam");
