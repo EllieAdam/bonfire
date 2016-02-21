@@ -49,6 +49,9 @@ function itemKeypress(event) {
 Q- Json function.
 Ans
 
+Q-1 ??
+Difficulty: 1.........
+
 
 Q- Create a reuseable fun.
 Ans
