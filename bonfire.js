@@ -15,9 +15,6 @@ var autoMeter   = 'Before: ' + MilesPreTrip + ' Trip: ' + tripMiles +
 console.log( autoMeter);
 
 
-
-
-
 2-AwesomeFCC
 Find the awesomeFCC and return its value
 Difficulty: 1....
@@ -519,9 +516,7 @@ function myTest(val) {
       answer = "High";
       break;
   }
-  
-  
-  // Only change code above this line  
+
   return answer;  
 }
 
