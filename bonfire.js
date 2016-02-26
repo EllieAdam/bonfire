@@ -313,7 +313,6 @@ function demethodize (func) {
 21. JavaScript events and timing.
 Q In what order will the numbers 1-4 be logged to the console when the code below is executed? Why?
 
-
 (function() {
     console.log(1);
     setTimeout(function(){console.log(2)}, 1000);
@@ -415,7 +414,6 @@ function myTest(val) {
   return "25 or More";
 }
 
-// Change this value to test
 myTest(10);
 
 Question:
@@ -423,19 +421,15 @@ Sometimes you will need to test more than one thing at a time. The logical and o
 and only if the operands to the left and right of it are true.
 Answer:
 function myTest(val) {
-  // Only change code below this line
 
   if (val <= 50 && val >=25) {
    
       return "Yes";
     }
 
-
-  // Only change code above this line
   return "No";
 }
 
-// Change this value to test
 myTest(10);
 
 Question:
@@ -467,8 +461,6 @@ Question:
 Chaining If Else Statements
 Answer:
 function myTest(num) {
-  // Only change code below this line
-
 
    if (num < 5) {
    return "Tiny";
