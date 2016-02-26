@@ -387,27 +387,26 @@ Question:
 
 Comparison with the Less Than Or Equal To Operator
 function myTest(val) {
-  if (val ) {  // Change this line
+  if (val ) { 
     return "Smaller Than or Equal to 12";
   }
   
-  if (val) {  // Change this line
+  if (val) { 
     return "Smaller Than or Equal to 24";
   }
 
   return "25 or More";
 }
 
-// Change this value to test
 myTest(10);
 Answer:
 
 function myTest(val) {
-  if (val <= 12) {  // Change this line
+  if (val <= 12) {  
     return "Smaller Than or Equal to 12";
   }
   
-  if (val <= 24) {  // Change this line
+  if (val <= 24) { 
     return "Smaller Than or Equal to 24";
   }
 
@@ -490,7 +489,7 @@ Multiple Identical Options in Switch Statements
 Answer:
 function myTest(val) {
   var answer = "";
-  // Only change code below this line
+
   switch(val) {
     case 1:
     case 2:
@@ -511,5 +510,4 @@ function myTest(val) {
 
   return answer;  
 }
-
 
