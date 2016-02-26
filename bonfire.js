@@ -385,3 +385,144 @@ arr1 and arr2 are the same after the above code is executed for the following re
 
 Calling an array object’s reverse() method doesn’t only return the array in reverse order, it also reverses the order of the array itself (i.e., in this case, arr1).
 The reverse() method returns a reference to the array itself (i.e., in this case, arr1). As a result, arr2 is simply a reference to (rather than a copy of) arr1. Therefore, when anything is done to arr2 (i.e., when we invoke arr2.push(arr3);), arr1 will be affected as well since arr1 and arr2 are simply references to the same object.
+
+
+Question:
+
+Comparison with the Less Than Or Equal To Operator
+function myTest(val) {
+  if (val ) {  // Change this line
+    return "Smaller Than or Equal to 12";
+  }
+  
+  if (val) {  // Change this line
+    return "Smaller Than or Equal to 24";
+  }
+
+  return "25 or More";
+}
+
+// Change this value to test
+myTest(10);
+Answer:
+
+function myTest(val) {
+  if (val <= 12) {  // Change this line
+    return "Smaller Than or Equal to 12";
+  }
+  
+  if (val <= 24) {  // Change this line
+    return "Smaller Than or Equal to 24";
+  }
+
+  return "25 or More";
+}
+
+// Change this value to test
+myTest(10);
+
+Question:
+Sometimes you will need to test more than one thing at a time. The logical and operator (&&) returns true if 
+and only if the operands to the left and right of it are true.
+Answer:
+function myTest(val) {
+  // Only change code below this line
+
+  if (val <= 50 && val >=25) {
+   
+      return "Yes";
+    }
+
+
+  // Only change code above this line
+  return "No";
+}
+
+// Change this value to test
+myTest(10);
+
+Question:
+ Else Statements
+ Answer:
+ function foo(x) {
+  if (x < 1) {
+    return "Less than one";
+  } else if (x < 2) {
+    return "Less than two";
+  } else {
+    return "Greater than or equal to two";
+  }
+}
+Question:
+Logical Order in If Else Statements
+
+Answer:
+function myTest(val) {
+  if (val < 5) {
+    return "Less than 5";
+  } else if (val < 10) {
+    return "Less than 10";
+  } else {
+    return "Greater than or equal to 10";
+  }
+}
+Question:
+Chaining If Else Statements
+Answer:
+function myTest(num) {
+  // Only change code below this line
+
+
+   if (num < 5) {
+   return "Tiny";
+}
+  else if (num < 10 ) {
+    
+   return "Small";
+    } 
+  else if (num < 15 ) {
+   return "Medium";
+    } 
+  else if (num < 20 ) {
+   return "Large";
+  }
+  else if (num >= 20 ) {
+   return "Huge";
+    
+    
+} else {
+  
+  return "Change Me";
+
+}
+//
+Question:
+Multiple Identical Options in Switch Statements
+Answer:
+function myTest(val) {
+  var answer = "";
+  // Only change code below this line
+  switch(val) {
+    case 1:
+    case 2:
+    case 3:
+      answer = "Low";
+      break;
+    case 4:
+    case 5:
+    case 6:
+      answer = "Mid";
+      break;
+    case 7:
+    case 8:
+    case 9:
+      answer = "High";
+      break;
+  }
+  
+  
+  // Only change code above this line  
+  return answer;  
+}
+
+
