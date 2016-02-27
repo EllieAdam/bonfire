@@ -512,14 +512,12 @@ function myTest(val) {
 }
 
 Question:
-
+The algorithm to convert from Celsius to Fahrenheit is the temperature in Celsius times 9/5, plus 32.
 
 Answer:
 function convert(celsius) {
-  // Only change code below this line
   
   var fahrenheit = celsius * 9/5 + 32;
-  // Only change code above this line
   if ( typeof fahrenheit !== 'undefined' ) {
     return fahrenheit;
   } else {
@@ -527,6 +525,5 @@ function convert(celsius) {
   }
 }
 
-// Change the inputs below to test your code
 convert(30);
 
