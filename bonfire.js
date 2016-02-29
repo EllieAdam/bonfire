@@ -539,3 +539,16 @@ myArray.push(["dog", 3]);
 
 convert(30);
 
+Question:
+It is possible to have both local and global variables with the same name. 
+When you do this, the local variable takes precedence over the global variable.
+Answer:
+function minusSeven(num) {
+  return num - 7;
+}
+
+
+function timesFive(num) {
+  return num * 5;
+}
+
