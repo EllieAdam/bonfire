@@ -22,7 +22,7 @@ Q- Create a reuseable function.
 
 
 
-Q- create a reusable function.
+
 
 
 Q- Create a reuseable fun.
