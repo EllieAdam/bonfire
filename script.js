@@ -18,11 +18,6 @@ var result = addNumbers();
 var cal = result + 1000;
 
 alert(cal);
-Q- Create a reuseable function.
-
-
-
-
 
 
 Q- Create a reuseable fun.
