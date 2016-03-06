@@ -594,6 +594,7 @@ function cc(card) {
     return count + ' Hold';
   }
 
+8.
 }
 
 cc(2); cc(3); cc(7); cc('K'); cc('A');
