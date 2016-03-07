@@ -3,6 +3,8 @@ Regex
 Ans
 / [http:\/\/\www\.twitter\.com\/\w+ ]/
 
+
+/ http(s)?:\/\/(www\.)?twitter\.(com|org)\/\w+ /
 2.
 
 $129.90
