@@ -1,3 +1,14 @@
+Regex
+1.twitter.com
+Ans
+/ [http:\/\/\www\.twitter\.com\/\w+ ]/
+
+2.
+
+
+
+
+
 1-Trip miles
 Calculate the trip miles and return autoMeter reading??
 Difficulty: 1....
