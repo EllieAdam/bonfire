@@ -9,6 +9,8 @@ $129.90
 Ans
 / \$[0-9]+\.[0-9][0-9]/
 
+3.
+Pattern: ^new[\w\s]+i
 
 
 1-Trip miles
