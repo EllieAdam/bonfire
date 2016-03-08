@@ -51,6 +51,10 @@ Ans
 
 Q- Create a reuseable fun.
 Ans
+
+
+Q- Create a reuseable fun.
+Ans
 var Amma = document.getElementByID("Amma");
 var Lia = document.getElementByID("Lia");
 var Sam = document.getElementByID("Sam");
