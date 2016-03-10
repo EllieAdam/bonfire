@@ -15,6 +15,10 @@ Ans
 Pattern: ^new[\w\s]+i
 
 
+1-Trip time
+Calculate the trip time and return totalHours of trip??
+Difficulty: 1....
+
 1-Trip miles
 Calculate the trip miles and return autoMeter reading??
 Difficulty: 1....
