@@ -645,6 +645,8 @@ Mailto;
 <a href ="art@gmail.com">send email</a>
 Top;
 <a href="#top">go to top</a>
+JS link;
+<a href="javascrip:alert('hello world');>Javascript</a>"
 
 Q11.
 .
