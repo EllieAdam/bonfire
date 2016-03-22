@@ -2517,7 +2517,7 @@ options:
 3.expect(find('')).to.be.a('');
 4.expect(find('')).to.be.a('');
 
-74.Question: ?
+74.Question: creat object?
 Difficulty: 1....
 
 options:
@@ -2526,6 +2526,17 @@ options:
 3.expect(find('')).to.be.a('');
 4.expect(find('')).to.be.a('');
 
+
+
+let dog = {
+  furColor: 'brown',
+  legs: 4,
+  tail: 'short, skinny',
+  describe () {
+    return `A dog with ${this.furColor} fur,
+      ${this.legs} legs, and a ${this.tail} tail.`;
+  }
+};
 
 75.Question: ?
 Difficulty: 1....
