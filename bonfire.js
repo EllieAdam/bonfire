@@ -640,6 +640,9 @@ for (var i = 0; i < myArr.length; i++) {
 }
 
 Q10.
+Common tags:
+Mailto;
+<a href ="art@gmail.com">send email</a>
 
 
 Q11.
