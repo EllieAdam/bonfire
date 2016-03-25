@@ -654,7 +654,7 @@ JS link;
 <a href="javascrip:alert('hello world');>Javascript</a>"
 
 Q11.
-.
+
 
 Q12.
 
