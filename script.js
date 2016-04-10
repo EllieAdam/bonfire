@@ -20,8 +20,15 @@ var cal = result + 1000;
 alert(cal);
 
 
-Q- Create a reuseable fun.
+Q- Create a btn that change random color when clicked.
 Ans
+<button id="demo-show-btn" class="mdl-button mdl-js-button mdl-button--raised" type="button">Show btn</button>
+<div id="demo-btn" class="mdl-js-btn mdl-snackbar">
+  <div class="mdl-btn__text"></div>
+  <button class="mdl-btn__action" type="button"></button>
+</div> 
+
+
 var checklist = document.getElementById("checklist");
 
 var items = checklist.querySelectorAll("li");
@@ -46,6 +53,33 @@ function itemKeypress(event) {
 }
 
 Q- Create a reuseable fun.
+<button id="demo-show-snackbar" class="mdl-button mdl-js-button mdl-button--raised" type="button">Show Snackbar</button>
+<div id="demo-snackbar-example" class="mdl-js-snackbar mdl-snackbar">
+  <div class="mdl-snackbar__text"></div>
+  <button class="mdl-snackbar__action" type="button"></button>
+</div>
+<script>
+(function() {
+  'use strict';
+  var snackbarContainer = document.querySelector('#demo-snackbar-example');
+  var showSnackbarButton = document.querySelector('#demo-show-snackbar');
+  var handler = function(event) {
+    showSnackbarButton.style.backgroundColor = '';
+  };
+  showSnackbarButton.addEventListener('click', function() {
+    'use strict';
+    showSnackbarButton.style.backgroundColor = '#' +
+        Math.floor(Math.random() * 0xFFFFFF).toString(16);
+    var data = {
+      message: 'Button color changed.',
+      timeout: 2000,
+      actionHandler: handler,
+      actionText: 'Undo'
+    };
+    snackbarContainer.MaterialSnackbar.showSnackbar(data);
+  });
+}());
+</script>
 Ans
 
 
