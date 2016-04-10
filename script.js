@@ -20,6 +20,8 @@ var cal = result + 1000;
 alert(cal);
 
 
+Q-
+
 Q- Create a btn that change random color when clicked.
 Ans
 <button id="demo-show-snackbar" class="mdl-button mdl-js-button mdl-button--raised" type="button">Show Snackbar</button>
