@@ -20,7 +20,7 @@ var cal = result + 1000;
 alert(cal);
 
 
-Q-
+Q
 
 Q- Create a btn that change random color when clicked.
 Ans
