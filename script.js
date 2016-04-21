@@ -2,7 +2,7 @@ Q-1 calculate the Numbers??
 Difficulty: 1.........
 
 options
-..
+...
 
 1.expect(find('')).to.be.a('');
 2.expect(find('')).to.be.a('');
