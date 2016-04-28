@@ -1,5 +1,5 @@
 Q-1 calculate the Numbers??
-Difficulty: 1.........
+Difficulty: 1...........
 
 options
 
