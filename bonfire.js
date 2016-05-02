@@ -8,8 +8,24 @@ Ans
 / http(s)?:\/\/(www\.)?twitter\.(com|org)\/\w+ /
 2....
 
-Q.
+Q. prototype example
 Answer
+var parent = {
+	get: function fn() {
+		return this.val;
+	},
+	val: 55
+};
+
+var child = Object.create(parent);
+child.val = 34.21;
+
+var grandchild = Object.create(child);
+
+parent.get(); //55
+child.get(); // 34.22
+grandchild.get(); //34.22
+
 
 Q.
 Answer
