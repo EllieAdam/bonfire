@@ -6,7 +6,7 @@ Ans
 
 
 / http(s)?:\/\/(www\.)?twitter\.(com|org)\/\w+ /
-2....
+2.
 
 Q. prototype example
 Answer
