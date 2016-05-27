@@ -22,7 +22,7 @@ var cal = result + 1000;
 alert(cal);
 
 
-Q- create loops
+Q- create loops.
 Answer:
 var jack = {};
 jack.job = "course dev";
