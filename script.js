@@ -22,7 +22,24 @@ var cal = result + 1000;
 alert(cal);
 
 
-Q
+Q- create loops
+Answer:
+var jack = {};
+jack.job = "course dev";
+
+var makeCourse = function() {
+	console.log("Made a course");
+}
+
+var course = 0;
+while(jack.job === "course dev") {
+	makeCourse();
+	courses = course + 1;
+	if(courses === 10) {
+		jack.job = "learning new skills";
+	}
+}
+console.log(jack.job);
 
 Q- Create a btn that change random color when clicked.
 Ans
