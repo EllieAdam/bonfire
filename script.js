@@ -1,3 +1,31 @@
+Q-1  js functions
+
+ANS.
+function lessThan(comparator, a, b) {
+  return comparator(a, b) < 0;
+}
+lessThan(function(a, b){ 
+  if (a.length < b.length) {
+    return -1;
+  } else if (a.length > b.length) {
+    return 1;
+  } else {
+    return 0;
+  }
+}, "foo", "barqux")
+// we can also move it to a variable:
+var compareLength = function(a, b) {
+  if (a.length < b.length) {
+    return -1;
+  } else if (a.length > b.length) {
+    return 1;
+  } else {
+    return 0;
+  }
+};
+lessThan(compareLength, "foo", "barqux");
+
+//-----
 Q-1 calculate the Numbers??
 Difficulty: 1...........
 
