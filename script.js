@@ -25,7 +25,7 @@ var compareLength = function(a, b) {
 };
 lessThan(compareLength, "foo", "barqux");
 
-//-----
+//-------
 Q-1 calculate the Numbers??
 Difficulty: 1...........
 
