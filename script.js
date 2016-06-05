@@ -26,6 +26,28 @@ var compareLength = function(a, b) {
 lessThan(compareLength, "foo", "barqux");
 
 //-------
+
+Q-2 Closure
+
+var add = function(a) {
+  return function(b) {
+    return a + b;
+  }
+}
+var add2 = add(2);
+add2(5); // => 7
+
+//-------
+
+Q-3 prototypical object
+
+var B = Object.create(null); // B inherits from nothing
+B.foo = 1;
+var A = Object.create(B); // A delegates to B
+A.bar = 2;
+A.foo;
+
+
 Q-1 calculate the Numbers??
 Difficulty: 1...........
 
