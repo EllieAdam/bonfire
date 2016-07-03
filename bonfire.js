@@ -1,7 +1,7 @@
 Regex
 1.twitter.com
 
-Ans
+Ans..
 / [http:\/\/\www\.twitter\.com\/\w+ ]/
 
 
