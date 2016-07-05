@@ -1,6 +1,6 @@
 Q-1  js functions
 
-ANS........
+ANS...........
 function lessThan(comparator, a, b) {
   return comparator(a, b) < 0;
 }
